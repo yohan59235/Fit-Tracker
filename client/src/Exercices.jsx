@@ -73,7 +73,7 @@ const Exercices = [
   },
   {
     id: 9,
-    name: "Levée de jambes avec une chaise Romaine",
+    name: "Levée de jambes (Chaise Romaine)",
     video: "/videos/Abdos/LeveDeJambesPupitre.mp4",
     muscles: ["Abdominaux"],
     instructions:

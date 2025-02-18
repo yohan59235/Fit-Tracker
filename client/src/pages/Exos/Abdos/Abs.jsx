@@ -17,7 +17,7 @@ function Abs() {
           <div>
             <h3>{exo.name}</h3>
           </div>
-          <div>
+          <div className="Exercices_Content">
             <video controls>
               <source src={exo.video} type="video/mp4" />
               Your browser does not support the video tag.
@@ -27,12 +27,14 @@ function Abs() {
             <div className="Exercices_Equipments">
               <p>Equipements : </p>
               <p dangerouslySetInnerHTML={{ __html: exo.equipment }} />
-              <button type="button">Ajouter à mes exercices</button>
-
-              <Link to="/ExoCard">
-                <button type="button">Voir l'exercice</button>
-              </Link>
             </div>
+          </div>
+          <div className="Exercices_Button">
+            <button type="button">Ajouter à mes exercices</button>
+
+            <Link to="/ExoCard">
+              <button type="button">Voir l'exercice</button>
+            </Link>
           </div>
         </div>
       ))}
