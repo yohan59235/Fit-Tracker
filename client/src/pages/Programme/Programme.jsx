@@ -40,7 +40,7 @@ function Programme() {
         </Link>
       </div>
       <div>
-        <Link to="/Abdos">
+        <Link to="/Abdominaux">
           <h2>Abdos</h2>
         </Link>
       </div>
