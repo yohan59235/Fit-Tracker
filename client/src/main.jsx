@@ -27,6 +27,7 @@ import Diner from "./pages/IdeeRepas/Diner/Diner";
 import Pecs from "./pages/Exos/Pecs/Pecs";
 import Abs from "./pages/Exos/Abdos/Abs";
 import ExoCard from "./pages/ExoCard/ExoCard";
+import ExosDos from "./pages/Exos/ExosDos/ExosDos";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,7 @@ const router = createBrowserRouter([
       { path: "/Diner", element: <Diner /> },
       { path: "/Pecs", element: <Pecs /> },
       { path: "/Abs", element: <Abs /> },
+      { path: "/ExosDos", element: <ExosDos /> },
       { path: "/ExoCard:id", element: <ExoCard /> },
     ],
   },

@@ -5,13 +5,13 @@ import "../Exos.css";
 
 import Exercices from "../../../Exercices";
 
-function Pecs() {
-  const PecsExercices = Exercices.filter(
-    (exo) => Array.isArray(exo.muscles) && exo.muscles.includes("Pectoraux")
+function ExosDos() {
+  const DosExercices = Exercices.filter(
+    (exo) => Array.isArray(exo.muscles) && exo.muscles.includes("Dos")
   );
   return (
     <div className="Exercices_Container">
-      {PecsExercices.map((exo) => (
+      {DosExercices.map((exo) => (
         <div key={exo.id} className="Exercices_Windows">
           <div>
             <h3>{exo.name}</h3>
@@ -40,4 +40,5 @@ function Pecs() {
     </div>
   );
 }
-export default Pecs;
+
+export default ExosDos;
