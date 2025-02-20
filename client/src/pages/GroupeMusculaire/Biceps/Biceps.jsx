@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "../GroupeMusculaire.css";
 
 import Bibi from "../../../assets/images/biceps2.jpg";
@@ -11,7 +13,9 @@ function Biceps() {
       />
       <h1>Biceps</h1>
       <div className="Button_Exos">
-        <button type="button">Ajouter un exercice</button>
+        <Link to="/ExosBiceps">
+          <button type="button">Ajouter un exercice</button>
+        </Link>
       </div>
       <div className="Exos_Container">
         <div>

@@ -28,6 +28,7 @@ import Pecs from "./pages/Exos/Pecs/Pecs";
 import Abs from "./pages/Exos/Abdos/Abs";
 import ExoCard from "./pages/ExoCard/ExoCard";
 import ExosDos from "./pages/Exos/ExosDos/ExosDos";
+import ExosBiceps from "./pages/Exos/ExosBiceps/ExosBiceps";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,7 @@ const router = createBrowserRouter([
       { path: "/Pecs", element: <Pecs /> },
       { path: "/Abs", element: <Abs /> },
       { path: "/ExosDos", element: <ExosDos /> },
+      { path: "/ExosBiceps", element: <ExosBiceps /> },
       { path: "/ExoCard:id", element: <ExoCard /> },
     ],
   },
