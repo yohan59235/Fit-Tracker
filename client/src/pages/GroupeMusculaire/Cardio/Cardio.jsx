@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "../GroupeMusculaire.css";
 
 import CardioTraining from "../../../assets/images/cardio2.png";
@@ -8,7 +10,9 @@ function Cardio() {
       <img src={CardioTraining} alt="homme faisant de l'écarté à la poulie" />
       <h1>Cardio</h1>
       <div className="Button_Exos">
+        <Link to="/ExosCardio">
         <button type="button">Ajouter un exercice</button>
+        </Link>
       </div>
       <div className="Exos_Container">
         <div>

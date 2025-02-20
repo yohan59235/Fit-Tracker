@@ -29,6 +29,7 @@ import Abs from "./pages/Exos/Abdos/Abs";
 import ExoCard from "./pages/ExoCard/ExoCard";
 import ExosDos from "./pages/Exos/ExosDos/ExosDos";
 import ExosBiceps from "./pages/Exos/ExosBiceps/ExosBiceps";
+import ExosCardio from "./pages/Exos/ExosCardio/ExosCardio";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,7 @@ const router = createBrowserRouter([
       { path: "/Abs", element: <Abs /> },
       { path: "/ExosDos", element: <ExosDos /> },
       { path: "/ExosBiceps", element: <ExosBiceps /> },
+      { path: "/ExosCardio", element: <ExosCardio /> },
       { path: "/ExoCard:id", element: <ExoCard /> },
     ],
   },
