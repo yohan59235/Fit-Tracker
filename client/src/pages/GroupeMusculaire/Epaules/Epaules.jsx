@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "../GroupeMusculaire.css";
 
 import EpaulesTraining from "../../../assets/images/epaule3.png";
@@ -11,7 +13,9 @@ function Epaules() {
       />
       <h1>Épaules / Trapèzes</h1>
       <div className="Button_Exos">
+        <Link to="/ExosEpaules">
         <button type="button">Ajouter un exercice</button>
+        </Link>
       </div>
       <div className="Exos_Container">
         <div>
