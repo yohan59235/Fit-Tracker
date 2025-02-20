@@ -1,15 +1,24 @@
-// Import the repository modules responsible for handling data operations on the tables
-const ItemRepository = require("./models/ItemRepository");
+/* ************************************************************************* */
+// Register Data Managers for Tables
+/* ************************************************************************* */
 
-// Create an empty object to hold data repositories for different tables
+// Import the manager modules responsible for handling data operations on the tables
+const ItemManager = require("./models/ItemManager");
+
+const managers = [
+  ItemManager,
+  // Add other managers here
+];
+
+// Create an empty object to hold data managers for different tables
 const tables = {};
 
-/* ************************************************************************* */
-// Register data repositories for tables
-/* ************************************************************************* */
+// Register each manager as data access point for its table
+managers.forEach((ManagerClass) => {
+  const manager = new ManagerClass();
 
-// Register each repository as data access point for its table
-tables.item = new ItemRepository();
+  tables[manager.table] = manager;
+});
 
 /* ************************************************************************* */
 

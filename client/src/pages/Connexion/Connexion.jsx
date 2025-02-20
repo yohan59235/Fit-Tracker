@@ -11,7 +11,7 @@ function Connexion() {
         <div className="Creation_Container">
           <h1>Créer ton compte</h1>
           <form>
-            <label>
+            <label htmlFor="Nickname">
               Nom de compte
               <input
                 type="text"
@@ -19,7 +19,7 @@ function Connexion() {
                 required="required"
               />
             </label>
-            <label>
+            <label htmlFor="Password">
               Mot de passe
               <input
                 type="password"
@@ -27,7 +27,7 @@ function Connexion() {
                 required="required"
               />
             </label>
-            <label>
+            <label htmlFor="Repeat password">
               Répéter le mot de passe
               <input
                 type="password"
