@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "../GroupeMusculaire.css";
 
 import Legs from "../../../assets/images/jambe2.jpg";
@@ -8,7 +10,9 @@ function Jambes() {
       <img src={Legs} alt="Homme faisant du squat guidé" />
       <h1>Jambes / Mollets</h1>
       <div className="Button_Exos">
-        <button type="button">Ajouter un exercice</button>
+        <Link to="/ExosJambes">
+          <button type="button">Ajouter un exercice</button>
+        </Link>
       </div>
       <div className="Exos_Container">
         <div>
