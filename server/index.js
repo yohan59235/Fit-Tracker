@@ -7,7 +7,7 @@ require("dotenv").config();
 require("./database/client").checkConnection();
 
 // Import the Express application from app/config.js
-const app = require("./app/config");
+const app = require("./database/app");
 
 // Get the port from the environment variables
 const port = process.env.APP_PORT;

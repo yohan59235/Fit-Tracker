@@ -33,6 +33,10 @@
   object-fit: contain;
 }
 
+.Exercices_Equipments {
+  width: 45%;
+}
+
 .Exercices_Equipments > p:first-child {
   margin-bottom: 0.3rem;
 }
