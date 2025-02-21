@@ -1,0 +1,47 @@
+.ExoCard_Container {
+  background-color: #f8e3bb;
+  height: 140vh;
+  padding: 7rem 0rem 5rem 0rem;
+}
+
+.ExoCard_Header {
+  text-align: center;
+}
+
+.ExoCard_Header > button {
+  background-color: #ffb52b;
+  border: none;
+  height: 1.8rem;
+  width: 13rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ExoCard_Header > button:hover {
+  transform: scale(110%);
+  transition: 0.3s ease;
+}
+
+.ExoCard_Header > h1 {
+  margin-bottom: 1rem;
+}
+
+.ExoCard_Header > video {
+  border-radius: 2rem;
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+
+.ExoCard_Instructions > div {
+  margin-left: 1rem;
+}
+
+.ExoCard_Instructions > div > p:first-child {
+  margin-bottom: 0.5rem;
+}
+
+.ExoCard_Instructions > p {
+  padding: 1rem 1rem 3rem 1rem;
+}

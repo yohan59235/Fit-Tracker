@@ -1,25 +1,35 @@
 /* eslint-disable react/no-danger */
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import Exercices from "../../Exercices";
 
+import "./ExoCard.css";
+
 function ExoCard() {
+  const navigate = useNavigate();
+  const Back = () => {
+    navigate(-1);
+  };
+
   const { id } = useParams();
   const exo = Exercices.find((exercise) => exercise.id === parseInt(id, 10));
   if (!exo) {
     return <p>Exercice non trouvé 🚫</p>;
   }
   return (
-    <div>
-      <div>
+    <div className="ExoCard_Container">
+      <div className="ExoCard_Header">
+        <button type="button" onClick={Back}>
+          Revenir aux exercices
+        </button>
         <h1>{exo.name}</h1>
         <video controls>
           <source src={exo.video} />
           <track kind="captions" />
         </video>
       </div>
-      <div>
+      <div className="ExoCard_Instructions">
         <div>
           <p>Equipements :</p>
           <p dangerouslySetInnerHTML={{ __html: exo.equipment }} />
