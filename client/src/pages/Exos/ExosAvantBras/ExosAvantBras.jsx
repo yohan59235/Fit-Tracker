@@ -32,7 +32,7 @@ function ExosAvantBras() {
           <div className="Exercices_Button">
             <button type="button">Ajouter à mes exercices</button>
 
-            <Link to="/ExoCard">
+            <Link to={`/ExoCard/${exo.id}`}>
               <button type="button">Voir l'exercice</button>
             </Link>
           </div>

@@ -1,12 +1,15 @@
 /* eslint-disable react/no-danger */
 import { useParams } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import Exercices from "../../Exercices";
 
 function ExoCard() {
   const { id } = useParams();
-  const exo = Exercices[id - 1];
-
+  const exo = Exercices.find((exercise) => exercise.id === parseInt(id, 10));
+  if (!exo) {
+    return <p>Exercice non trouvé 🚫</p>;
+  }
   return (
     <div>
       <div>
@@ -17,11 +20,23 @@ function ExoCard() {
         </video>
       </div>
       <div>
-        <p>Équipement :{exo.equipment}</p>
+        <div>
+          <p>Equipements :</p>
+          <p dangerouslySetInnerHTML={{ __html: exo.equipment }} />
+        </div>
         <p dangerouslySetInnerHTML={{ __html: exo.instructions }} />
       </div>
     </div>
   );
 }
+
+ExoCard.propTypes = {
+  exo: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    video: PropTypes.string.isRequired,
+    equipment: PropTypes.string.isRequired,
+    instructions: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default ExoCard;

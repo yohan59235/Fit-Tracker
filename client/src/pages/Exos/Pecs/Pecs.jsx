@@ -18,7 +18,7 @@ function Pecs() {
           </div>
           <div className="Exercices_Content">
             <video controls>
-              <source src={exo.video} type="video/mp4" />
+              <source src={exo.video} type="video/mp4" />-
               Your browser does not support the video tag.
               <track kind="captions" />
             </video>
@@ -31,8 +31,8 @@ function Pecs() {
           <div className="Exercices_Button">
             <button type="button">Ajouter à mes exercices</button>
 
-            <Link to="/ExoCard">
-              <button type="button">Voir l'exercice</button>
+            <Link to={`/ExoCard/${exo.id}`}>
+              <button type="button" >Voir l'exercice</button>
             </Link>
           </div>
         </div>

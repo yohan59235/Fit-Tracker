@@ -69,7 +69,7 @@ const router = createBrowserRouter([
       { path: "/ExosJambes", element: <ExosJambes /> },
       { path: "/ExosTriceps", element: <ExosTriceps /> },
       { path: "/ExosAvantBras", element: <ExosAvantBras /> },
-      { path: "/ExoCard:id", element: <ExoCard /> },
+      { path: "/ExoCard/:id", element: <ExoCard /> },
     ],
   },
 ]);
