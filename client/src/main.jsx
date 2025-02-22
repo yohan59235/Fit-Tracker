@@ -35,6 +35,7 @@ import ExosEtirements from "./pages/Exos/ExosEtirements/ExosEtirements";
 import ExosJambes from "./pages/Exos/ExosJambes/ExosJambes";
 import ExosTriceps from "./pages/Exos/ExosTriceps/ExosTriceps";
 import ExosAvantBras from "./pages/Exos/ExosAvantBras/ExosAvantBras";
+import Infos from "./pages/Infos/Infos";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/Connexion", element: <Connexion /> },
       { path: "/Programme", element: <Programme /> },
+      { path: "/Infos", element: <Infos /> },
       { path: "/Pectoraux", element: <Pectoraux /> },
       { path: "/Dos", element: <Dos /> },
       { path: "/Biceps", element: <Biceps /> },

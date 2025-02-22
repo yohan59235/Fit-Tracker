@@ -55,7 +55,7 @@ function Footer() {
         className={`Icon_Container ${activeIcon === "question" ? "active" : ""}`}
         onClick={() => handleIconClick("question")}
       >
-        <Link to="/">
+        <Link to="/Infos">
           <FaCircleQuestion className="Icon" />
         </Link>
       </div>
