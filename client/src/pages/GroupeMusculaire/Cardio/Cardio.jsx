@@ -1,17 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "../GroupeMusculaire.css";
 
 import CardioTraining from "../../../assets/images/cardio2.png";
 
 function Cardio() {
+  const navigate = useNavigate();
+  const Back = () => {
+    navigate(-1);
+  };
+
   return (
     <div className="Group_Container">
       <img src={CardioTraining} alt="homme faisant de l'écarté à la poulie" />
       <h1>Cardio</h1>
       <div className="Button_Exos">
+        <button type="button" onClick={Back} className="Groupes_Return">
+          Revenir aux groupes musculaires
+        </button>
         <Link to="/ExosCardio">
-        <button type="button">Ajouter un exercice</button>
+          <button type="button">Ajouter un exercice</button>
         </Link>
       </div>
       <div className="Exos_Container">
