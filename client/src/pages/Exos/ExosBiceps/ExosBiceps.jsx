@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "../Exos.css";
 
@@ -9,8 +9,17 @@ function ExosBiceps() {
   const BicepsExercices = Exercices.filter(
     (exo) => Array.isArray(exo.muscles) && exo.muscles.includes("Biceps")
   );
+
+  const navigate = useNavigate();
+  const Back = () => {
+    navigate(-1);
+  };
+
   return (
     <div className="Exercices_Container">
+      <button type="button" onClick={Back} className="Exos_Return">
+        Revenir à la page précédente
+      </button>
       {BicepsExercices.map((exo) => (
         <div key={exo.id} className="Exercices_Windows">
           <div>

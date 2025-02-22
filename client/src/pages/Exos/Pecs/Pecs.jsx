@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "../Exos.css";
 
@@ -9,8 +9,17 @@ function Pecs() {
   const PecsExercices = Exercices.filter(
     (exo) => Array.isArray(exo.muscles) && exo.muscles.includes("Pectoraux")
   );
+
+  const navigate = useNavigate();
+  const Back = () => {
+    navigate(-1);
+  };
+
   return (
     <div className="Exercices_Container">
+      <button type="button" onClick={Back} className="Exos_Return">
+        Revenir à la page précédente
+      </button>
       {PecsExercices.map((exo) => (
         <div key={exo.id} className="Exercices_Windows">
           <div>
@@ -18,8 +27,8 @@ function Pecs() {
           </div>
           <div className="Exercices_Content">
             <video controls>
-              <source src={exo.video} type="video/mp4" />-
-              Your browser does not support the video tag.
+              <source src={exo.video} type="video/mp4" />- Your browser does not
+              support the video tag.
               <track kind="captions" />
             </video>
 
@@ -32,7 +41,7 @@ function Pecs() {
             <button type="button">Ajouter à mes exercices</button>
 
             <Link to={`/ExoCard/${exo.id}`}>
-              <button type="button" >Voir l'exercice</button>
+              <button type="button">Voir l'exercice</button>
             </Link>
           </div>
         </div>
