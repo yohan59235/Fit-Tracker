@@ -38,6 +38,7 @@ import ExosAvantBras from "./pages/Exos/ExosAvantBras/ExosAvantBras";
 import Infos from "./pages/Infos/Infos";
 import ListePetitDej from "./pages/ListeRepas/PetitDej/ListePetitDej";
 import ListeCollation from "./pages/ListeRepas/Collation/ListeCollation";
+import ListeDejeuner from "./pages/ListeRepas/Dejeuner/ListeDejeuner";
 
 const router = createBrowserRouter([
   {
@@ -76,6 +77,7 @@ const router = createBrowserRouter([
       { path: "/ExoCard/:id", element: <ExoCard /> },
       { path: "/ListePetitDej", element: <ListePetitDej /> },
       { path: "/ListeCollation", element: <ListeCollation /> },
+      { path: "/ListeDejeuner", element: <ListeDejeuner /> },
     ],
   },
 ]);
