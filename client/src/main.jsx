@@ -40,6 +40,7 @@ import ListePetitDej from "./pages/ListeRepas/PetitDej/ListePetitDej";
 import ListeCollation from "./pages/ListeRepas/Collation/ListeCollation";
 import ListeDejeuner from "./pages/ListeRepas/Dejeuner/ListeDejeuner";
 import ListeGouter from "./pages/ListeRepas/Gouter/ListeGouter";
+import ListeDiner from "./pages/ListeRepas/Diner/ListeDiner";
 
 const router = createBrowserRouter([
   {
@@ -80,6 +81,7 @@ const router = createBrowserRouter([
       { path: "/ListeCollation", element: <ListeCollation /> },
       { path: "/ListeDejeuner", element: <ListeDejeuner /> },
       { path: "/ListeGouter", element: <ListeGouter /> },
+      { path: "/ListeDiner", element: <ListeDiner /> },
     ],
   },
 ]);
