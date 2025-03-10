@@ -18,6 +18,7 @@ router.use("/items", ItemControllers.browse);
 
 /* user router */
 
+router.get("/users", userControllers.browse);
 router.post("/users", authMiddleware.hashPassword, userControllers.add);
 
 /* ************************************************************************* */
