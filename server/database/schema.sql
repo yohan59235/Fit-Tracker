@@ -1,6 +1,6 @@
 create table user (
   id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  email varchar(255) NOT NULL UNIQUE,
+  nomdecompte varchar(255) NOT NULL UNIQUE,
   hashed_password VARCHAR(255) NOT NULL
 );
 
