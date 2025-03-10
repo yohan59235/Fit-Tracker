@@ -5,7 +5,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 // Import database client
-const database = require("../database/client");
+const database = require("./database/client");
 
 const fixtures = path.join(__dirname, "..", "database", "fixtures");
 
