@@ -10,6 +10,9 @@ function Connexion() {
   const [password, SetPassword] = useState("");
   const [showModal, setShowModal] = useState(false);
 
+console.info("nomdecompte:", nomdecompte);
+console.info("mot de passe:", password);
+
   const submitForm = (e) => {
     e.preventDefault();
     axios
@@ -56,7 +59,7 @@ function Connexion() {
                 required="required"
               />
             </label>
-            <label htmlFor="Repeat password">
+            {/* <label htmlFor="Repeat password">
               Répéter le mot de passe
               <input
                 type="password"
@@ -64,7 +67,7 @@ function Connexion() {
                 onChange={handleChangePassword}
                 required="required"
               />
-            </label>
+            </label> */}
             <div className="Submit_Connexion">
               <input type="submit" value="S'enregistrer" />
             </div>
@@ -73,7 +76,7 @@ function Connexion() {
             </button>
           </form>
           {showModal && (
-            <div>
+            <div className="Inscription_Modal">
               <p>Merci, votre compte à bien été créé.</p>
               <p>Vous pouvez maintenant accéder aux menus.</p>
             </div>

@@ -4,6 +4,8 @@ create table user (
   hashed_password VARCHAR(255) NOT NULL
 );
 
+INSERT INTO user (nomdecompte, hashed_password) VALUES ('AdminTest', 'AdminTest')
+
 -- create table item (
 --   id int unsigned primary key auto_increment not null,
 --   title varchar(255) not null,
