@@ -57,6 +57,15 @@
   transition: 0.3s ease;
 }
 
+.Inscription_Modal {
+  text-align: center;
+  background-color: rgb(134, 255, 134);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .Creation_Container > form > button {
   text-align: center;
   border: none;
