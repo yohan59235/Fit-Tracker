@@ -1,17 +1,18 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { useState } from "react";
+import { useState, useContext } from "react";
 import axios from "axios";
+
+import UserContext from "../../services/UserContext";
 
 import "./Connexion.css";
 
 function Connexion() {
   const [showCreation, setShowCreation] = useState(true);
   const [nomdecompte, setNomdecompte] = useState("");
-  const [password, SetPassword] = useState("");
+  const [password, setPassword] = useState("");
   const [showModal, setShowModal] = useState(false);
 
-console.info("nomdecompte:", nomdecompte);
-console.info("mot de passe:", password);
+  // Create user function
 
   const submitForm = (e) => {
     e.preventDefault();
@@ -32,7 +33,41 @@ console.info("mot de passe:", password);
   };
 
   const handleChangePassword = (event) => {
-    SetPassword(event.target.value);
+    setPassword(event.target.value);
+  };
+
+  // Login function
+
+  const { setUser } = useContext(UserContext);
+  const { setUserId } = useContext(UserContext);
+
+  // const [connexionNomdecompte, setConnexionNomdecompte] = useState("");
+  // const [connexionPassword, SetConnexionPassword] = useState("");
+
+  const handleConnexionNomdecompte = (event) => {
+    setNomdecompte(event.target.value);
+  };
+
+  const handleConnexionPassword = (event) => {
+    setPassword(event.target.value);
+  };
+
+  const submitConnexion = (e) => {
+    e.preventDefault();
+    axios
+      .post(
+        "http://localhost:3310/api/login",
+        { nomdecompte, password },
+        { withCredentials: true }
+      )
+      .then((response) => {
+        setUser({
+          nomdecompte: response.data.nomdecompte,
+          id: response.data.id,
+        });
+        setUserId(response.data.id);
+      })
+      .catch((err) => console.error(err));
   };
 
   return (
@@ -85,12 +120,13 @@ console.info("mot de passe:", password);
       ) : (
         <div className="Connexion_Container">
           <h1>Connecte-toi</h1>
-          <form>
+          <form onSubmit={submitConnexion}>
             <label>
               Nom de compte
               <input
                 type="text"
                 placeholder="Mon nom de compte"
+                onChange={handleConnexionNomdecompte}
                 required="required"
               />
             </label>
@@ -99,6 +135,7 @@ console.info("mot de passe:", password);
               <input
                 type="password"
                 placeholder="Mon mot de passe"
+                onChange={handleConnexionPassword}
                 required="required"
               />
             </label>

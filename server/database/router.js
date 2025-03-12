@@ -9,6 +9,7 @@ const router = express.Router();
 const ItemControllers = require("./controllers/ItemControllers");
 
 const userControllers = require("./controllers/UserControllers");
+const authControllers = require("./controllers/AuthControllers");
 
 const authMiddleware = require("./services/auth");
 
@@ -20,6 +21,11 @@ router.use("/items", ItemControllers.browse);
 
 router.get("/users", userControllers.browse);
 router.post("/users", authMiddleware.hashPassword, userControllers.add);
+
+/* user Login / Logout */
+
+router.post("/login", authControllers.login);
+router.delete("/logout", authMiddleware.verifyToken, authControllers.logout);
 
 /* ************************************************************************* */
 

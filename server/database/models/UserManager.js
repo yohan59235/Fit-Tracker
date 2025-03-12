@@ -32,6 +32,14 @@ class UserManager extends AbstractManager {
     return rows;
   }
 
+  async readByNomdecomptePlusPassword(nomdecompte) {
+    const [rows] = await this.database.query(
+      `SELECT * FROM ${this.table} WHERE nomdecompte=?`,
+      [nomdecompte]
+    );
+    return rows;
+  }
+
   // The U of CRUD - Update operation
 
   async update(usersInfos) {
