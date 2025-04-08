@@ -1,0 +1,37 @@
+.MonProfile_Container {
+  background-color: #f8e3bb;
+  height: 100vh;
+}
+
+.MonProfile_Container > div:first-child {
+  padding-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.MonProfile_Container > div > h1 {
+  text-align: center;
+}
+
+.MonProfile_Container > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.MonProfile_Container > div > a > button {
+  width: 19rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.MonProfile_Container > div > a:first-child > button {
+  margin-bottom: 5rem;
+  background-color: #ffb52b;
+}
+
+.MonProfile_Container > div > a:last-child > button {
+  background-color: rgb(252, 83, 83);
+}

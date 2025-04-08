@@ -103,7 +103,7 @@ function Connexion() {
                 required="required"
               />
             </label> */}
-            <div className="Submit_Connexion">
+            <div className="Submit_Creation">
               <input type="submit" value="S'enregistrer" />
             </div>
             <button type="button" onClick={() => setShowCreation(false)}>

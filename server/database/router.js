@@ -21,6 +21,7 @@ router.use("/items", ItemControllers.browse);
 
 router.get("/users", userControllers.browse);
 router.post("/users", authMiddleware.hashPassword, userControllers.add);
+router.delete("/users/:id", userControllers.detroy)
 
 /* user Login / Logout */
 

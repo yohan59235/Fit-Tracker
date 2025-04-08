@@ -2,12 +2,14 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable import/no-extraneous-dependencies */
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 import { IoMdHome } from "react-icons/io";
 import { MdFitnessCenter, MdFastfood } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { FaCircleQuestion } from "react-icons/fa6";
+
+import UserContext from "../../services/UserContext";
 
 import "./Footer.css";
 
@@ -17,6 +19,13 @@ function Footer() {
   const handleIconClick = (iconName) => {
     setActiveIcon(iconName);
   };
+
+  // Verification de connexion pour afficher le menu profil
+
+  const { user } = useContext(UserContext);
+
+  const isConnected = user.id && user.id !== "null";
+
   return (
     <div className="Footer_Container">
       <div
@@ -43,14 +52,16 @@ function Footer() {
           <MdFastfood className="Icon" />
         </Link>
       </div>
-      <div
-        className={`Icon_Container ${activeIcon === "user" ? "active" : ""}`}
-        onClick={() => handleIconClick("user")}
-      >
-        <Link to="/Connexion">
-          <FaUser className="Icon" />
-        </Link>
-      </div>
+      {isConnected ? (
+        <div
+          className={`Icon_Container ${activeIcon === "user" ? "active" : ""}`}
+          onClick={() => handleIconClick("user")}
+        >
+          <Link to="/MonProfil/:id">
+            <FaUser className="Icon" />
+          </Link>
+        </div>
+      ) : null}
       <div
         className={`Icon_Container ${activeIcon === "question" ? "active" : ""}`}
         onClick={() => handleIconClick("question")}
