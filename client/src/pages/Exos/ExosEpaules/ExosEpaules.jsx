@@ -1,5 +1,8 @@
 /* eslint-disable react/no-danger */
 import { Link, useNavigate } from "react-router-dom";
+import { useContext } from "react";
+
+import UserContext from "../../../services/UserContext";
 
 import "../Exos.css";
 
@@ -14,6 +17,12 @@ function ExosEpaules() {
   const Back = () => {
     navigate(-1);
   };
+
+  // fonction pour retirer le bouton "ajouter aux exercices" si l'utilisateur n'est pas connecté
+
+  const { user } = useContext(UserContext);
+
+  const isConnected = user.id && user.id !== "null";
 
   return (
     <div className="Exercices_Container">
@@ -38,7 +47,9 @@ function ExosEpaules() {
             </div>
           </div>
           <div className="Exercices_Button">
-            <button type="button">Ajouter à mes exercices</button>
+            {isConnected ? (
+              <button type="button">Ajouter à mes exercices</button>
+            ) : null}
 
             <Link to={`/ExoCard/${exo.id}`}>
               <button type="button">Voir l'exercice</button>
