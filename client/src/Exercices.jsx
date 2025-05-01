@@ -566,7 +566,7 @@ const Exercices = [
     name: "Élevations postérieures sur un banc avec haltères",
     video: "/videos/Epaules/ElevationBackAssisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez une paire d'haltères et asseyez vous sur un banc. 2- Gardez les jambes serrées et penchez votre buste pour être posé sur vos jambes. 3- Saisissez les haltères dans chaques mains et tout en restant posé sur vos jambes gardez le dos droit. 4- Serrez les omoplates et montez les haltères de chaque côté perpendiculairement à votre corps (en faisant un mouvement en quart de cercle) et essayez de laisser les bras presque tendus (légère flexion du coude). 5- Une fois les bras parallèle au sol redescendez en contrôlant le mouvement pour revenir en position initiale. 6- Veillez à toujours gainer les abdominaux, serrer les omoplates et expirer pendant le montée et inspirer pendant la descente.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -574,7 +574,7 @@ const Exercices = [
     name: "Élevations postérieures buste penché avec haltères",
     video: "/videos/Epaules/ElevationBackHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez deux haltères qui vous conviendront pour cet exercice. 2- Placez les jambes largeur de bassin, les genoux légèrement fléchis. 3- Haltères en mains penchez vous délicatement en maintenant votre dos bien droit afin d'avoir le buste presque parallèle au sol. 4- Expirez et montez les haltères en effectuant un mouvement de quart de cercle afin que vos bras soient parallèle au sol mais aussi perpendiculaire à votre corps. 5- Accompagnez le mouvement lors de la descente tout en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer, garder le dos bien droit et serrer les omoplates.",
     equipment: "- Haltères",
   },
   {
@@ -582,7 +582,7 @@ const Exercices = [
     name: "Élevations postérieures buste penché à la poulie",
     video: "/videos/Epaules/ElevationBackPoulie.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Équipez les deux côtés de la poulie de poignées, placez les en position basse et choisissez le poid qui vous correspond. 2- Prenez dans chaque main la poignée de la poulie oposée à votre bras (votre main droite avec la poignée de la poulie à votre gauche), placez vos pieds largeur de bassin et fléchissez légèrement les genoux. 3- Penchez vous afin d'avoir le puste presque parallèle au sol. 4- Expirez et montez les poignées (en suivant le tracé d'un quart de cercle) afin de vous retrouver les bras parallèle au sol et perpendiculaire à votre corps. 5- Accompagnez le mouvement pendant la descente et inspirer en même temps afin de revenir en position initiale. 6- Pensez à bien gainer les abdominaux et serrer les omoplates durant l'exercice.",
     equipment: "- Poulie",
   },
   {
@@ -590,7 +590,7 @@ const Exercices = [
     name: "Élevations frontales sur banc avec haltères",
     video: "/videos/Epaules/ElevationfrontaleassisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez une paire d'haltère qui vous conviendra pour faire cet exercice et asseyez vous sur un banc. 2- Saisissez les haltères et mettez vous bien droit les bras le long du corps. 3- Levez vos bras droit devant vous (en suivant le tracé d'un quart de cercle) afin qu'ils soient parallèles au sol. 4- Accompagnez ensuite le mouvement dans la descente afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux et garder le dos droit pour vous éviter des blessures, pensez également à expirer lors de la montée et inspirer lors de la descente.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -598,7 +598,7 @@ const Exercices = [
     name: "Élevations frontales debout avec barre",
     video: "/videos/Epaules/ElevationFrontaleBarre.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Prenez une barre EZ et chargez la de manière à réussir l'exercice sans vous blesser. 2- Prenez la barre EZ en main et placez vos pieds largeur d'épaules et fléchissez légèrement les genoux. 3- Expirer en levant la barre droit devant vous afin que vos bras soient parallèle au sol (pendant le mouvement pensez à garder les bras presque tendus avec une légère flexion au niveau des coudes). 4- Accompagnez la barre tout en contrôlant la descente et pensez à inspirer à ce moment la. 5- Veillez à bien gainer les abdominaux durant l'exercice et serrer les omoplates.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -606,7 +606,7 @@ const Exercices = [
     name: "Élevations frontales avec barre sur banc incliné",
     video: "/videos/Epaules/ElevationFrontaleBarreSurBanc.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Prenez une barre EZ, chargez la à votre convenance, placez un banc et inclinez le à 45°. 2- Saisissez la barre et chevauchez le banc de manière à poser votre buste sur le haut du dossier du banc, les bras pendant tenant la barre. 3- Serrez les omoplates et montez la barre droit devant vous bras presque tendus (légère flexion des coudes) afin que vos bras soient parallèle au sol. 4- Accompagnez la descente en contrôlant le mouvement, inspirez pendant la descente, afin de revenir en position initiale.",
     equipment: "- Banc. </br> - Barre avec des poids.",
   },
   {
@@ -614,7 +614,7 @@ const Exercices = [
     name: "Élevations frontale debout à la poulie",
     video: "/videos/Epaules/ElevationFrontaleUnilaterale.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez le poid de la poulie qui vous convient, placez la en position basse et équipez la poulie d'une poignée. 2- Placez vous dos à la poulie, saisissez la poignée d'une main, écartez les pieds largeur bassin et fléchissez légèrement les genoux. 3- Montez le bras en gardant le bras presque tendu (légère flexion au niveau du coude) afin que votre bras soit parallèle au sol. 4- Accompagnez le mouvement lors de la descente afin de revenir en position initiale. 5- Veillez à bien expirer pendant la montée et inspirer pendant la descente, de plus gainer bien les abdominaux.",
     equipment: "- Poulie",
   },
   {
@@ -622,7 +622,7 @@ const Exercices = [
     name: "Élevations latérales à la machine",
     video: "/videos/Epaules/ElevationLateraleMachine.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez le poid qui vous conviendra et asseyez vous sur le siège de la machine. 2- Placez vos avant-bras/coudes au niveau des boudins de la machine, maintenez votre dos bien droit et gainez les abdominaux tout le long de l'exercice. 3- Montez les coudes de façon a vous retrouver les bras parallèle au sol, pensez à expirer pendant le mouvement. 4- Contrôlez la descente tout en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux et pensez à expirer pendant la montée et inspirer lors de la descente",
     equipment: "- Machine d'élevations latérales",
   },
   {
