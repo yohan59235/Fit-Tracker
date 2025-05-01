@@ -481,7 +481,8 @@ const Exercices = [
     name: "Rowing barre au rack à squat",
     video: "/videos/Dos/TirageVerticaleRackSquat.mp4",
     muscles: ["Dos"],
-    instructions: "",
+    instructions:
+      "1- Placez la barre du rack à squat au plus bas et chargez la à votre convenance. 2- Placez vous debout face à la barre, placez vos mains sur la barre prise pronation, largeur supérieur aux épaules. 3- Les genoux légèrement fléchis, basculez les fesses vers l'arrière tout en vous penchant vers l'avant. 4- Gardez le buste incliné à 45°, gainez bien les abdominaux et tirez la barre vers votre nombril. 5- Expirez lors de la montée, gardez la contraction durant 1 seconde, puis inspirez et relâchez le mouvement tout en le contrôlant. 6- Veillez à bien gainer les abdominaux pendant l'exercice.",
     equipment: "- Barre du rack à squat",
   },
   {
@@ -489,15 +490,17 @@ const Exercices = [
     name: "Tirage vertical à la machine",
     video: "/videos/Dos/TirageVerticalMachine.mp4",
     muscles: ["Dos"],
-    instructions: "",
+    instructions:
+      "1- Changez le poid comme il vous conviendra et assayez vous sur le banc, les deux boudins potionnés sur vos cuisses doivent bloquer vos jambes. 2- Saisissez la barre, prise pronation, d'une largeur plus large que vos épaules. 3- Penchez votre buste légèrement vers l'arrière et tirez la barre afin de l'amener au niveau de votre menton. 4- Après une contraction d'une seconde relâchez le mouvement tout en le contrôlant. 5- Expirez votre air pendant le tirage et inspirez au moment de relâcher.",
     equipment: "- Machine de tirage vertical",
   },
   {
     id: 56,
-    name: "Tirage vetical prise serrée à la poulie",
+    name: "Tirage vetical prise serrée à la machine",
     video: "/videos/Dos/TirageVerticalPriseSerree.mp4",
     muscles: ["Dos"],
-    instructions: "",
+    instructions:
+      "1- Remplacez la barre par la poignée prise serrée, mettez le poid qui vous conviendra. 2- Prenez place sur le siège et bloquez vos cuisses à l'aide des boudins. 3- Saisissez les poignées, penchez légèrement votre buste vers l'arrière et tout en expirant tirez les poignées pour les amener au niveau du menton. 4- Gardez la contraction durant 1 seconde puis relâchez doucement tout en inspirant.",
     equipment: "- Poulie",
   },
   {
@@ -505,7 +508,8 @@ const Exercices = [
     name: "Tirage vertical unilatéral à la poulie",
     video: "/videos/Dos/TirageVerticalUnilateral.mp4",
     muscles: ["Dos"],
-    instructions: "",
+    instructions:
+      "1- Remplacez la barre par une seule poignée et modifiez le poid à votre aise. 2- Placez vous sur le siège en bloquant vos cuisses avec les boudins. 3- Saisissez la poignée avec votre main droite paume de main vers l'intérieur (vers votre côté gauche). 4- Expirez tout en tirant la poulie afin d'amener votre coude sur le côté de votre corps, pendant ce mouvement faites pivoter votre poignet pour qu'il arrive en prise supination à la fin du mouvement. 5- Gardez la contraction pendant 1 seconde puis relâchez lentement tout inspirant.",
     equipment: "- Poulie",
   },
   {
@@ -513,15 +517,16 @@ const Exercices = [
     name: "Tractions lestées",
     video: "/videos/Dos/TractionLestee.mp4",
     muscles: ["Dos"],
-    instructions: "",
-    equipment: "- Barre de traction. </br> - Poids.",
+    instructions:
+      "1- Placez vous sous la barre de traction et attachez un ou plusieurs poids à votre ceinture. 2- Saisissez la barre, prise plus large que les épaules et suspendez vous, serrez les omoplates et vous êtes prêt pour commencer le mouvement. 3- Tirez vous vers le haut afin d'amener la barre au niveau de votre menton, pensez à expirer pendant la montée. 4- Si vous le pouvez maintenez la contraction pendant 1 seconde, sinon descendez doucement afin de revenir en position initiale, pensez également à inspirer dans la descente.",
+    equipment: "- Barre de traction. </br> - Poids. </br> - Ceinture",
   },
   {
     id: 59,
     name: "Tractions assistées à la machine",
     video: "/videos/Dos/TractionMachine.mp4",
     muscles: ["Dos"],
-    instructions: "",
+    instructions: "1- Choisissez le poid qui vous asssistera pour l'exercice et placez vos genoux sur l'assise. 2- Saisissez les poignées puis tirez votre corps vers le haut afin d'amener votre menton à hauteur de la barre. 3- Restez contracté pendant une seconde avant de relâcher en douceur afin de revenir en position initiale. 4- Pensez à bien expirer pendant la montée et inspirez pendant la déscente.",
     equipment: "- Machine pour les tractions",
   },
   {
@@ -529,7 +534,7 @@ const Exercices = [
     name: "Shrugs",
     video: "/videos/Epaules/ContractionTrapezeHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez deux haltères selon vos capacités afin d'effectuer le mouvement correctement sans vous blesser. 2- Saisissez les haltères et maintenez vous debout les bras le long du corps. 3- Durant l'exercice veillez à bien gainer vos abdominaux. 4- Haussez les épaules de haut en bas en faisant bien attention à ne pas faire de mouvement de rotation d'épaule. 5- Veillez à bien respecter le mouvement rectiligne pour vous éviter des blessures aux épaules.",
     equipment: "- Haltères",
   },
   {
@@ -537,7 +542,7 @@ const Exercices = [
     name: "Développé militaire assis avec haltères",
     video: "/videos/Epaules/DeveloppeMilitaireAssisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Prenez des haltères à votre convenance puis asseyez vous sur un banc positionné en angle presque droit. 2- Placez les haltères sur vos genoux et collez votre dos au dossier, à l'aide de vos genoux, levez les haltères afin d'arriver en position de départ (bras fléchis sur les co^tés du corps et haltères hauteur d'épaules). 3- Tout en expirant votre air, tendez les bras afin d'amener les haltères au dessus de votre tête. 4- Baissez les bras tout en contrôlant le mouvement et en inspirant, veillez à garder les coudes sur les côtés du corps.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -545,7 +550,7 @@ const Exercices = [
     name: "Développé militaire à la machine",
     video: "/videos/Epaules/DeveloppeMilitaireMachine.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Asseyez vous sur le siège de la machine et choisissez le poid que vous souhaitez utiliser. 2- Collez votre dos au dossier et placez vos mains sur les poignées. 3- Tout en expirant poussez les poignées vers le haut jusqu'à tendre les bras. 4- Une fois en haut baisser les bras en contrôlant la descente et en inspirant, veillez à garder les bras sur les côtés du corps.",
     equipment: "- Machine de développé militaire",
   },
   {
@@ -553,7 +558,7 @@ const Exercices = [
     name: "Développé miliatire au rack à squat",
     video: "/videos/Epaules/DeveloppeMilitaireRackSquat.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Placez le banc au centre du rack à squat perpendiculairement à la barre. 2- Afin de voir si le banc est à la bonne distance, prenez place sur le banc, qui aura été placé en angle droit, baissez la barre pour qu'elle soit au niveau de votre menton ou votre cou. 3- Placez la barre en position haute et chargez la progressivement. 4- Placez vos mains sur la barre plus large que la largeur de vos épaules, soulevez la barre et pivotez la pour enlever les protections. 5- Baisser lentement la barre, tout en inspirant, afin de l'amener au niveau du menton. 6- Expirez votre air et remontez la barre jusqu'à avoir les bras tendus. 7- Veillez à bien respirer pendant l'exercice et gainez les abdominaux durant l'effort.",
     equipment: "- Barre du rack à squat",
   },
   {
