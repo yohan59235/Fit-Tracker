@@ -630,7 +630,7 @@ const Exercices = [
     name: "Élevations latérales à la poulie",
     video: "/videos/Epaules/ElevationLateralesPoulieBasse.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Équipez les deux côtés de la poulie de poignées et choisissez le poid que vous souhaitez. 2- Placez vous au centre de la poulie, jambes largeur de bassin et les genoux légèrement fléchis. 3- Saisissez les poignées avec les mains qui sont à l'opposé (la main droite prend la poignée du côté gauche de la poulie). 4- Montez les bras simulatanément sur les côtés de votre corps (bras presque tendus avec une légère flexion au niveau du coude) jusqu'à les retrouver parallèle au sol, inspirez lors de la montée. 5- Inspirez et accompagnez le mouvement lors de la descente afin de revenir en position initiale. 6- Veillez à bien gainer les abdominaux et garder les genoux légèrement fléchis.",
     equipment: "- Poulie",
   },
   {
@@ -638,7 +638,7 @@ const Exercices = [
     name: "Élevations latérales sur banc aux haltères",
     video: "/videos/Epaules/ElevationsLateralesAssisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez une paire d'haltères qui vous permettra d'effectuer l'exercice et asseyez vous sur un banc qui aura été mit au préalable à 90°. 2- Prenez les haltères en main et laissez les bras pendre le long du corps. 3- Montez les bras presque tendus (tout en gardant une légère flexion au niveau du coude) jusqu'à avoir les bras parallèle au sol. 4- Contrôlez le mouvement lors de la descente afin de revenir en position initiale. 5- Pensez à bien gainer les abdominaux pendant l'execution de l'exercice et pensez également à expirer pendant la montée et inspirer pendant la descente.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -646,7 +646,7 @@ const Exercices = [
     name: "Élevations latérales debout avec haltères",
     video: "/videos/Epaules/ElevationsLateralesDeboutHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez une paire d'haltères et positionnez vous jambes légèrement fléchies avec les pieds largeur de bassin. 2- Gardez les bras le long du corps, gainez les abdominaux et serrer les omoplates. 3- Expirez votre air tout en montant vos bras sur les côtés de votre corps jusqu'à les retrouver parallèle au sol. 4- Contrôlez le mouvement lors de la descente tout en inspirant afin de revenir en position initiale. 5- Penser à bien garder les abdominaux gainés et de bien respirer pendant l'exercice.",
     equipment: "- Haltères",
   },
   {
