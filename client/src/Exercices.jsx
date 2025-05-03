@@ -654,7 +654,7 @@ const Exercices = [
     name: "Élevations postérieures buste penché à la poulie",
     video: "/videos/Epaules/ElevationUnilateraleBackPoulie.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Équipez la poignée sur un côté de la poulie, positionnez vous de côté par rapport à la poulie. 2- Positionnez vos pieds largeur de bassin les genoux légèrement fléchis, penchez vous vers l'avant avec le coude le plus proche de la poulie comme appui sur votre cuisse. 3- Saisissez la poignée avec la main à l'opposé de la poulie et gainez bien vos abdominaux. 4- Effectuez la montée de votre bras perpendiculairement à votre corps, tout en expirant votre air, stoppez la montée quand votre bras est parallèle au sol. 5- Inspirez tout en accompagnant le mouvement pendant la descente afin de revenir en position initiale. 6- Veillez à bien gainer les abdominaux et respirer correctement pendant l'exercice.",
     equipment: "- Poulie",
   },
   {
@@ -662,7 +662,7 @@ const Exercices = [
     name: "Élevations latérales avec un haltère",
     video: "/videos/Epaules/ElevationUnilateraleHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Choisissez un haltère qui vous conviendra pour cet exercice. 2- Placez vous proche d'une poulie (ou autres maintien vertical vous permettant de vous agripper dessus) maintenez la barre et tendez le bras afin d'être légèrement penché sur le côté (comme sur la vidéo). 3- Laissez pendre votre bras puis montez le sur le côté de votre corps (en faisant un mouvement de quart de cercle) afin qu'il soit parralèle au sol. 4- Accompagnez le mouvement dans la descente afin de revenir en position initiale avec le bras pendant. 5- Veillez à bien garder les abdominaux gainés et respecter les respiration (expirer pendant la montée et inspirer au moment de relâcher).",
     equipment: "- Haltères",
   },
   {
@@ -670,7 +670,7 @@ const Exercices = [
     name: "Élevations latérales à la poulie",
     video: "/videos/Epaules/ElevationUnilateralePoulieBasse.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Équipez un côté de la poulie avec une poignée, mettez vos pieds joints proche de la poulie et agrippez vous au montant vertical de la poulie. 2- Choisissez le poids pour faire l'exercice et saisissez la poignée avec votre main libre (celle à l'opposé de la poulie), tendez le bras qui tient le montant afin de vous retrouver légèrement penché sur le côté. 3- Tout en expirant, montez votre bras sur le côté de votre corps jusqu'à ce qu'il soit parallèle au sol. 4- Accompagnez ensuite le mouvement dans la descente en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux durant l'exercice.",
     equipment: "- Poulie",
   },
   {
@@ -678,7 +678,7 @@ const Exercices = [
     name: "Extensions horizontales à la poulie",
     video: "/videos/Epaules/ExtensionHorizontale.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Équipez un côté de la poulie avec une poignée et positionnez la poulie à hauteur de votre coude. 2- Choisissez un poids assez léger et positionnez vous de profil par rapport à la poulie. 3- Saisissez la poignée avec la main à l'opposée de la poulie et fixez votre coude proche du corps, il faut absolument qu'il reste immobile. 4- Uniquement en bougeant votre avant-bras, amenez la poignée à l'opposée de la poulie. 5- Relâchez lentement en ramenant la poignée vers la base de la poulie pour revenir en position initiale. 6- Pensez à gainer les abdominaux, expirez en éloignant la poignée de la poulie et inspirez en la ramenant.",
     equipment: "- Poulie",
   },
   {
@@ -686,7 +686,7 @@ const Exercices = [
     name: "Shrugs avec barre à la poulie",
     video: "/videos/Epaules/SerrageOmoplates.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Positionnez la poulie en bas et équipez-la d’une barre droite. 2- Choisissez un poids modéré à lourd, selon votre niveau, et tenez-vous debout face à la machine, les pieds écartés à la largeur des hanches. 3- Saisissez la barre en pronation (paumes vers vous), les bras tendus, la barre proche de vos cuisses. 4- Gardez les bras complètement relâchés et les coudes verrouillés tout au long du mouvement. 5- Haussez les épaules aussi haut que possible en direction des oreilles, sans bouger les bras. 6- Marquez une courte pause en haut, puis relâchez lentement les épaules vers le bas. 7- Respirez naturellement : expirez en haussant les épaules, inspirez en revenant à la position de départ.",
     equipment: "- Barre à la poulie",
   },
   {
@@ -694,15 +694,15 @@ const Exercices = [
     name: "Élevations postéreures inversées sur banc à la poulie",
     video: "/videos/Epaules/TirageEpaulesBackPoulieHaute.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Placez un banc entre les deux poulies qui auront été mises en position basse et équipée de poignées. 2- Saisissez une poignée dans chaque main en croisant les câbles, puis allongez-vous sur le banc. 3- Gardez les bras légèrement dléchis et les coudes fixes durant tout le mouvement. 4- Écartez les bras en tirant les poignées vers l’extérieur, jusqu’à ce qu’ils soient alignés avec vos épaules. 5- Marquez une courte pause pour contracter l’arrière des épaules. 6- Revenez lentement à la position initiale en contrôlant la montée. 7- Gardez le tronc gainé, inspirez à la montée, expirez en écartant les bras.",
     equipment: "- Banc. </br> - Poulie.",
   },
   {
     id: 81,
-    name: "Tirage menton à la poulie",
+    name: "Tirage front à la poulie",
     video: "/videos/Epaules/TirageFrontPoulie.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Équipez une corde à une côté de la poulie et positionnez la au milieu. 2- Mettez vous face à la poulie, un genou à terre et l'autre pied comme appui, saisissez la corde des deux mains. 3- Tirez la corde afin d'amener les mains au niveau du visage et en écartant les coudes vers l'extérieur. 4- Relâchez doucement la tension et accompagnez la corde afin de revenir en position initiale. 5- Gardez le dos droit durant l'exercice, expirez lors du tirage et inspirer en relâchant.",
     equipment: "- Poulie",
   },
   {
@@ -710,7 +710,7 @@ const Exercices = [
     name: "Tirage menton à la barre",
     video: "/videos/Epaules/TirageMentonBarre.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Utilisez une barre droite ou EZ, saisie en pronation, mains légèrement plus étroites que la largeur des épaules. 2- Tenez-vous debout, la barre contre les cuisses, bras tendus. 3- Contractez les abdominaux et gardez le buste droit durant tout le mouvement. 4- Tirez la barre verticalement vers le menton en levant les coudes vers le haut et l’extérieur. 5- Marquez un léger arrêt en haut du mouvement, sans dépasser le niveau du menton. 6- Contrôlez la descente jusqu’à revenir en position initiale. 7- Expirez en montant, inspirez en descendant.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -718,7 +718,7 @@ const Exercices = [
     name: "Tirage menton avec barre à la poulie",
     video: "/videos/Epaules/TirageMentonBarrePoulieBasse.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Fixez une barre droite à une poulie basse et choisissez une charge adaptée. 2- Saisissez la barre en pronation, mains rapprochées, bras tendus vers le bas. 3- Tenez-vous bien droit, épaules basses et regard droit devant vous. 4- Tirez la barre vers le menton en gardant les coudes plus hauts que les poignets. 5- Concentrez-vous sur la contraction des épaules et des trapèzes en haut du mouvement. 6-Redescendez lentement et contrôlez la barre jusqu’en bas. 7- Expirez pendant la montée, inspirez à la descente.",
     equipment: "- Barre de la poulie",
   },
   {
@@ -726,7 +726,7 @@ const Exercices = [
     name: "Tirage menton avec haltères",
     video: "/videos/Epaules/TirageMentonHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "",
+    instructions: "1- Prenez un haltère dans chaque main, bras tendus devant les cuisses, paumes vers le corps. 2- Gardez les pieds écartés à la largeur des hanches, le dos droit et les abdominaux contractés. 3- Tirez les haltères vers le haut en gardant les coudes pointés vers l’extérieur et plus hauts que les poignets. 4- Arrêtez le mouvement lorsque les haltères sont à hauteur des épaules ou du menton. 5- Marquez un léger arrêt, puis redescendez les haltères lentement. 6- Gardez le mouvement fluide et contrôlé, sans à-coups. 7- Expirez en tirant, inspirez en revenant.",
     equipment: "- Haltères",
   },
   {
@@ -734,7 +734,7 @@ const Exercices = [
     name: "Torsion au sol",
     video: "/videos/Etirements/StretchBack.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Allongez-vous sur le dos, jambes tendues. 2- Pliez la jambe droite et ramenez le genou vers votre poitrine. 3- Avec la main gauche, guidez le genou droit vers le sol du côté gauche. 4- Étendez le bras droit à l’opposé et tournez la tête vers la droite. 5- Maintenez les épaules collées au sol. 6- Respirez profondément et maintenez 20 à 30 secondes. 7- Changez de côté et répétez.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -742,7 +742,7 @@ const Exercices = [
     name: "Inclinaison du buste",
     video: "/videos/Etirements/StretchBackLateral.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Tenez-vous debout ou assis, dos droit, pieds à plat au sol. 2- Levez un bras au-dessus de la tête, l’autre bras le long du corps. 3- Inclinez le buste latéralement du côté opposé au bras levé. 4- Ne penchez pas vers l’avant ni vers l’arrière. 5- Sentez l’étirement sur le flanc et la taille. 6- Maintenez la position 20 à 30 secondes en respirant lentement. 7- Changez de côté.",
     equipment: "- Auncun",
   },
   {
@@ -750,7 +750,7 @@ const Exercices = [
     name: "Étirement du pyramidal",
     video: "/videos/Etirements/StretchFessier.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Allongez-vous sur le dos, genoux pliés, pieds à plat au sol. 2- Placez la cheville droite sur le genou gauche. 3- Attrapez l’arrière de la cuisse gauche et tirez-la vers vous. 4- Gardez la tête au sol et les épaules détendues. 5- Sentez l’étirement dans la fesse droite. 6- Maintenez 20 à 30 secondes en respirant profondément. 7- Inversez les jambes et répétez.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -758,7 +758,7 @@ const Exercices = [
     name: "Étirement des fessiers",
     video: "/videos/Etirements/StretchFessier2.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Alongez-vous au sol jambes tendues. 2- Ramenez une jambe vers vous et crochetez vos mains au niveau du genou. 3- Tirez à l'aide de vos bras votre genou vers votre ventre. 4- Gardez le dos droit et fermez les yeux pour vous détendre. 5- Maintenez la contraction pendant 20 à 30 secondes, puis relâchez et changez le côté. 6- Respirez lentement et profondément.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -766,7 +766,7 @@ const Exercices = [
     name: "Étirement des avant-bras",
     video: "/videos/Etirements/StretchForArm.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Mettez-vous à genoux à terre, mains au sol les doigts en direction des genoux. 2- Gardez les bras tendus pour garder une tension sur les avant-bras. 3- Basculez lentement votre corps d'avant en arrière pour augmenter ou réduire la tension sur les avant-bras. 4- Sentez l'étirement sous les avant-bras. 5- Maintenez 15 à 30 secondes, sans bloquer la respiration.",
     equipment: "- Auncun",
   },
   {
@@ -774,7 +774,7 @@ const Exercices = [
     name: "Étirement des Ischios sur banc",
     video: "/videos/Etirements/StretchIschio.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Placez un pied tendu sur un banc ou une surface surélevée. 2- Gardez la jambe d’appui bien droite, le dos allongé. 3- Penchez-vous lentement vers l’avant, en direction de la jambe tendue. 4- Gardez le dos droit, sans arrondir le haut du dos. 5- Sentez l’étirement à l’arrière de la cuisse. 6- Maintenez 20 à 30 secondes. 7- Changez de jambe et répétez.",
     equipment: "- Banc",
   },
   {
@@ -782,7 +782,7 @@ const Exercices = [
     name: "Étirement des Ischios au sol",
     video: "/videos/Etirements/StretchIschio2.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Placez un genou au sol et l'autre jambe tendue vers l'avant. 2- Penchez votre buste vers la jambe tendue, sans arrondir le dos. 3- Essayez de saisir votre pied ou votre tibia. 4- Gardez la jambe tendue active, sans la relâcher. 5- Sentez l’étirement à l’arrière de la cuisse. 6- Maintenez 20 à 30 secondes, respirez calmement. 7- Changez de jambe.",
     equipment: "- Auncun",
   },
   {
@@ -790,15 +790,15 @@ const Exercices = [
     name: "Étirement bas du dos / Ischios buste penché",
     video: "/videos/Etirements/StretchLowerBack.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Tenez-vous debout, pieds parallèles et légèrement écartés. 2- Penchez-vous lentement vers l’avant en relâchant le buste. 3- Laissez les bras tomber vers le sol sans forcer. 4- Gardez les jambes légèrement fléchies ou tendues selon votre souplesse. 5- Sentez l’étirement dans les ischios et le bas du dos. 6- Maintenez 20 à 30 secondes, puis redressez-vous doucement. 7- Respirez profondément et relâchez les tensions.",
     equipment: "- Auncun",
   },
   {
     id: 93,
-    name: "Étirement dos de chien / dos de chat",
+    name: "Étirement dos de chien",
     video: "/videos/Etirements/StretchMiddleBack.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Mettez-vous à quatre pattes, mains sous les épaules, genoux sous les hanches. 2- Inspirez en creusant le dos (dos du chien), regard vers le plafond. 3- Revenez ensuite en position initiale en expirant lentement. 4- Alternez lentement entre les deux positions, en suivant votre respiration. 5- Gardez les mouvements fluides et progressifs. 6- Répétez pendant 30 secondes à 1 minute. 7- Concentrez-vous sur la mobilité de la colonne.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -806,7 +806,7 @@ const Exercices = [
     name: "Étirement des mollets",
     video: "/videos/Etirements/StretchMollets.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Placez-vous debout, mains sur les hanches. 2- Avancez un pied et reculez l’autre, jambes tendues. 3- Pliez légèrement la jambe avant, gardez le talon arrière au sol. 4- Gardez le dos droit et baissez de plus en plus pour sentir la tension sur le mollet. 5- Sentez l’étirement dans le mollet arrière. 6- Maintenez 20 à 30 secondes. 7- Changez de jambe.",
     equipment: "- Auncun",
   },
   {
@@ -814,7 +814,7 @@ const Exercices = [
     name: "Étirement du cou",
     video: "/videos/Etirements/StretchNeckBack.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Tenez-vous debout ou assis, dos droit, épaules relâchées. 2- Inclinez doucement la tête vers l'arrière. 3- Sentez l'étirement à l'avant du cou. 4- Maintenez la position 15 à 30 secondes, sans forcer. 5- Redressez lentement la tête. 6- Répétez si besoin, en gardant une respiration calme. 7- Évitez tout mouvement brusque.",
     equipment: "- Auncun",
   },
   {
@@ -822,7 +822,7 @@ const Exercices = [
     name: "Étirement de l'arrière de la nuque",
     video: "/videos/Etirements/StretchNeckFront.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Tenez-vous debout ou assis, dos droit, épaules relâchées. 2- Inclinez doucement la tête vers l’avant, menton vers la poitrine. 3- Sentez l’étirement à l’arrière du cou. 4- Maintenez la position 15 à 30 secondes, sans forcer. 5- Relevez lentement la tête. 6- Répétez si besoin, en gardant une respiration calme. 7- Évitez tout mouvement brusque.",
     equipment: "- Auncun",
   },
   {
@@ -830,7 +830,7 @@ const Exercices = [
     name: "Étirement latéral de la nuque",
     video: "/videos/Etirements/StretchNeckLateral.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Tenez-vous droit, épaules détendues. 2- Avec la main droite saisissez le poignet de la main gauche. 3- Exercez un tirage sur le bras gauche et en même temps penchez la tête du côté opposé. 4- Sentez la tension sur le côté de la nuque. 5- Maintenez 15 à 30 secondes ren respirant lentement. 6- Redressez la tête et effectuez plusieurs fois ce mouvement. 7- Changez de côté et recommencez.",
     equipment: "- Aucun",
   },
   {
@@ -838,7 +838,7 @@ const Exercices = [
     name: "Étirement des pectoraux",
     video: "/videos/Etirements/StretchPecs.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Mettez-vous à genoux face à un banc. 2- Posez vos mains sur le banc, bras tendus et buste penché le regard vers le sol. 3- Avancez le buste vers le sol pour sentir une tension dur les pectoraux. 4- Maintenez la tension pendant 20 à 30 secondes. 5- Redressez-vous doucement jusqu'à regarder à hauteur du banc. 6- Répétez ce mouvement plusieurs fois. 7- Respirez profondément.",
     equipment: "- Banc",
   },
   {
@@ -846,7 +846,7 @@ const Exercices = [
     name: "Étirement des quadriceps au sol",
     video: "/videos/Etirements/StretchQuadri.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Mettez-vous un genou au sol et l'autre pied plus vers l'avant pour vous maintenir. 2- Ramenez le pied vers vos fesses et attrappez le pied avec la main opposée. 3- Tirez sur votre pied afin d'exercer une tension sur vos quadriceps. 4- Maintenez la tension pendant 20 à 30 secondes, puis relâchez. 5- Changez de côté et répétez le mouvement. 6- Respirez pronfondément.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -854,15 +854,15 @@ const Exercices = [
     name: "Étirement des épaules",
     video: "/videos/Etirements/StretchShoulders.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Tendez le bras droit devant vous à hauteur d’épaule. 2- Amenez-le à l’horizontale contre la poitrine. 3- Utilisez la main gauche pour tirer doucement le bras vers vous. 4- Gardez les épaules relâchées. 5- Sentez l’étirement à l’arrière de l’épaule droite. 6- Maintenez 20 à 30 secondes. 7- Changez de bras.",
     equipment: "- Auncun",
   },
   {
     id: 101,
-    name: "Étirement en hauteur des épaules ",
+    name: "Étirement en hauteur des épaules",
     video: "/videos/Etirements/StretchShouldersUpper.mp4",
     muscles: ["Etirements"],
-    instructions: "",
+    instructions: "1- Mettez-vous debout ou assis sur une chaise. 2- Tendez le bras droit vers le haut, au dessus de votre tête, puis pliez le. 3- Avec l'autre bras attrappez le coude droit. 4- Avec votre bras gauche tirez le coude vers l'arrière de votre tête afin de créer une tension dans l'arrière de l'épaule. 5- Gardez la tension pendant 15 à 30 secondes, puis relâchez. 6- Changez de côté puis recommencez le mouvement. 7- Respirez profondément pendant l'étirement.",
     equipment: "- Aucun",
   },
   {
