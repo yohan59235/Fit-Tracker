@@ -870,7 +870,7 @@ const Exercices = [
     name: "Adducteurs à la poulie",
     video: "/videos/Jambes/AdducteurPoulie.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Attachez une sangle cheville à la poulie basse et fixez-la à la jambe intérieure par rapport à la machine. 2- Tenez-vous debout, en vous appuyant légèrement sur la machine pour l’équilibre. 3- Gardez le dos droit et les abdominaux gainés. 4- Ramenez la jambe sanglée vers l’intérieur, en croisant devant la jambe d’appui. 5- Marquez un bref temps de contraction en position finale. 6- Revenez lentement à la position de départ. 7- Changez de jambe après la série.",
     equipment: "- Poulie",
   },
   {
@@ -878,7 +878,7 @@ const Exercices = [
     name: "Adducteurs à la machine",
     video: "/videos/Jambes/AdducteursMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Asseyez-vous sur la machine et réglez l’écartement des coussins selon votre souplesse. 2- Placez vos jambes contre les coussins extérieurs, dos bien plaqué contre le dossier. 3- Saisissez les poignées latérales pour stabiliser le haut du corps. 4- Rapprochez les jambes lentement en contractant les adducteurs. 5- Marquez une courte pause en fin de mouvement. 6- Renez en position initiale en contrôlant le mouvement. 7- Gardez une respiration régulière et fluide.",
     equipment: "- Machine à adducteurs",
   },
   {
@@ -886,7 +886,7 @@ const Exercices = [
     name: "Abducteurs à la poulie",
     video: "/videos/Jambes/AbducteurPoulie.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Attachez une sangle cheville à la poulie basse et fixez-la à la jambe extérieure par rapport à la machine. 2- Tenez-vous debout, en vous appuyant sur la machine pour l’équilibre. 3- Levez la jambe vers l’extérieur sans pencher le buste. 4- Gardez la jambe d’appui légèrement fléchie. 5- Contrôlez le retour à la position de départ. 6- Restez gainé pendant tout le mouvement. 7- Changez de jambe.",
     equipment: "- Poulie",
   },
   {
@@ -894,7 +894,7 @@ const Exercices = [
     name: "Abducteurs à la machine",
     video: "/videos/Jambes/AbducteursMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Asseyez-vous sur la machine, jambes à l’intérieur des coussins. 2- Réglez l’écartement des jambes selon votre confort. 3- Saisissez les poignées pour maintenir votre posture. 4- Écartez les jambes lentement en contractant les muscles extérieurs des cuisses. 5- Maintenez la position une seconde en fin de mouvement. 6- Revenez doucement à la position de départ. 7- Inspirez à l’écartement, expirez au retour.",
     equipment: "- Machine à abducteurs",
   },
   {
@@ -902,7 +902,7 @@ const Exercices = [
     name: "Soulevé de terre jambes tendues aux haltères",
     video: "/videos/Jambes/ExtensionLegHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Tenez deux haltères bras tendus devant les cuisses, pieds largeur des hanches. 2- Gardez les jambes légèrement fléchies et le dos bien droit. 3- Penchez vous vers l’avant en poussant les hanches en arrière. 4- Descendez les haltères jusqu’à mi tibia, sans arrondir le dos. 5- Contractez les ischios et fessiers pour remonter. 6- Expirez en remontant, inspirez à la descente. 7- Gardez un mouvement fluide et contrôlé.",
     equipment: "- Haltères",
   },
   {
@@ -910,7 +910,7 @@ const Exercices = [
     name: "Fentes latérales avec un haltère",
     video: "/videos/Jambes/FenteCoteHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Tenez un haltère contre la poitrine avec les deux mains. 2- Écartez les jambes sur les côtés de manière à avoir le tibia en angle droit par rapport au sol quand vous faites une fente. 3- Fléchissez le genou droit tout en gardant la jambe gauche tendue. 4- Gardez le dos droit et le poids du corps sur le talon droit. 5- Tendez la jambe droite afin de revenir en position initiale. 6- Faites plusieurs répétitions puis changez de côté. 7- Inspirez à la descente, expirez à la remontée.",
     equipment: "- Haltère",
   },
   {
@@ -918,7 +918,7 @@ const Exercices = [
     name: "Fentes alternées avec haltères",
     video: "/videos/Jambes/FenteHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Tenez un haltère dans chaque main, bras le long du corps. 2- Faites un pas en avant avec la jambe droite. 3- Fléchissez les deux genoux à 90 degrés, sans toucher le sol. 4- Poussez sur le talon avant pour revenir debout. 5- Alternez avec la jambe gauche. 6- Gardez le dos droit et le regard devant vous. 7- Contrôlez la descente et gardez les abdos engagés.",
     equipment: "- Haltères",
   },
   {
@@ -926,7 +926,7 @@ const Exercices = [
     name: "Fentes latérales avec barre",
     video: "/videos/Jambes/FentesDeCoteUnilateralBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez une barre sur vos trapèzes et tenez-la fermement. 2- Écartez les jambes sur les côtés de manière à avoir le tibia en angle droit par rapport au sol quand vous faites une fente. 3- Fléchissez le genou droit tout en gardant la jambe gauche tendue. 4- Gardez le dos droit et le poids du corps sur le talon droit. 5- Tendez la jambe droite afin de revenir en position initiale. 6- Faites plusieurs répétitions puis changez de côté. 7- Inspirez à la descente, expirez à la remontée.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -934,15 +934,15 @@ const Exercices = [
     name: "Fentes de face avec barre",
     video: "/videos/Jambes/FentesFaceBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez une barre sur vos trapèzes et tenez la fermement. 2- Faites un grand pas en avant avec la jambe droite. 3- Fléchissez les deux genoux à 90 degrés. 4- Gardez le buste droit et stable. 5- Poussez sur le talon avant pour tendre la jambe en gardant une légère fléxion sur le genou avant et tendez complètememnt la jambe arrière. 6- Faites plusieurs répétitions puis changez de jambe. 7- Respirez en descendant, expirez en remontant.",
     equipment: "- Barre avec des poids",
   },
   {
     id: 111,
-    name: "Fentes latérales au poid du corps",
+    name: "Fentes latérales au poids du corps",
     video: "/videos/Jambes/FentesGauchePDC.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Tenez-vous debout, pieds écartés bien plus que la largeur des épaules. 2- Fléchissez le genou droit en gardant la jambe gauche tendue. 3- Gardez le buste droit, bras tendus devant pour l’équilibre. 4- Revenez en position initiale en poussant sur la jambe droite. 5- Faites plusieurs répétitions puis changez de jambe. 6- Gardez un rythme contrôlé.",
     equipment: "- Auncun",
   },
   {
@@ -950,7 +950,7 @@ const Exercices = [
     name: "Fentes de face au rack à squat",
     video: "/videos/Jambes/FentesRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez la barre sur vos trapèzes depuis le rack à squat. 2- Faites un pas en avant avec la jambe droite. 3- Descendez jusqu’à ce que les deux genoux soient à 90°. 4- Gardez le buste droit et stable. 5- Revenez en poussant sur le talon de la jambe avant. 6- Faites plusieurs répétitions puis changez de jambe 7- Expirez en remontant.",
     equipment: "- Rack à squat",
   },
   {
@@ -958,7 +958,7 @@ const Exercices = [
     name: "Fessiers à la poulie",
     video: "/videos/Jambes/FessierPoulie.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Attachez la sangle cheville à la poulie basse. 2- Placez un banc dans la longueur face à la poulie et prenez appui dessus, jambe gauche dans le vide. 3- Tendez la jambe vers l’arrière en contractant le fessier. 4- Marquez une pause en extension maximale. 5- Revenez lentement. 6- Ne cambrez pas le dos, restez gainé. 7- Après plusieurs répétitions changez de jambe.",
     equipment: "- Poulie",
   },
   {
@@ -966,7 +966,7 @@ const Exercices = [
     name: "Soulevé de terre jambes tendues au rack à squat",
     video: "/videos/Jambes/FessierRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez une barre sur le sol dans le rack et tenez la en pronation. 2- Pieds écartés à la largeur des hanches, jambes légèrement fléchies. 3- Inclinez le buste vers l’avant en gardant le dos plat. 4- Descendez la barre jusqu’à mi tibia sans arrondir le dos. 5- Remontez en contractant les ischios et les fessiers. 6- Gardez les abdos engagés tout au long du mouvement. 7- Inspirez à la descente, expirez à la remontée.",
     equipment: "- Rack à squat",
   },
   {
@@ -974,23 +974,23 @@ const Exercices = [
     name: "Front squat au rack à squat",
     video: "/videos/Jambes/FrontSquatRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez la barre à l’avant de vos épaules, coudes hauts. 2- Pieds à largeur d’épaules, orteils légèrement tournés vers l’extérieur. 3- Descendez en fléchissant les genoux, en gardant le dos droit. 4- Allez jusqu’à ce que les cuisses soient parallèles au sol. 5- Remontez en poussant sur les talons. 6- Gardez les coudes levés et le regard droit. 7- Expirez en remontant.",
     equipment: "- Rack à squat",
   },
   {
     id: 116,
-    name: "Hip Trust allongé sur un banc au rack à squat",
+    name: "Fessiers sur un banc au rack à squat",
     video: "/videos/Jambes/HipTrustAllongeRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Alongez vous sur le banc à plat ventre. 2- Placez vos pieds sous la barre. 3- Poussez vos pieds et la barre vers le haut. 4- Sentez la contraction des fessiers. 5- Gardez la contraction pendant une seconde, puis relâchez. 5- Redescendez lentement en gardant le contrôle. 6- Ne cambrez pas le dos. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Banc, rack à squat",
   },
   {
     id: 117,
-    name: "Hip Trust allongé sur la dos à la barre",
+    name: "Hip Trust allongé sur le dos à la barre",
     video: "/videos/Jambes/HipTrustBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Allongez-vous au sol, genoux pliés, pieds à plat. 2- Placez la barre au-dessus du bassin. 3- Poussez les hanches vers le haut en contractant les fessiers. 4- Alignez les épaules, les hanches et les genoux. 5- Maintenez une seconde en haut. 6- Redescendez lentement. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -998,7 +998,7 @@ const Exercices = [
     name: "Hip Trust debout à la machine",
     video: "/videos/Jambes/HipTrustDeboutMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez-vous contre le boudin, pied droit sur le repose pied. 2- Poussez votre pied vers l'arrière. 3- Sentez la contraction du fessier. 4- Gardez la contraction pendant une seconde. 5- Relâchez doucement et revenez en position initiale. 6- Restez gainé. 7- Respirez de façon fluide.",
     equipment: "- Machine à hip trust",
   },
   {
@@ -1006,7 +1006,7 @@ const Exercices = [
     name: "Hip Trust à la poulie",
     video: "/videos/Jambes/HipTrustGenouxPoulieBasse.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Positionnez la poulie en bas et accrochez y soit deux poignées soit la corde. 2- Mettez-vous dos à la poulie et à genoux. 3- Passer les mains entre vos jambes pour saisir les poignées. 4- Gardez le dos droit et contractez les fessiers en redressant votre buste et vos cuisses. 5- Gardez la contraction et sentez vos fessier se contracter. 6- Relâchez lentement en contrôlant le mouvement. 7- Gainez et respirez de manière contrôlée.",
     equipment: "- Poulie",
   },
   {
@@ -1014,7 +1014,7 @@ const Exercices = [
     name: "Hip Trust assis à la machine",
     video: "/videos/Jambes/HipTrustMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Asseyez-vous et placez la barre rembourrée sur vos hanches. 2- Pieds à plat, genoux pliés à 90°. 3- Poussez les hanches vers le haut contre la charge. 4- Contractez les fessiers au sommet. 5- Redescendez doucement. 6- Gardez le dos droit. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Machine à hip trust",
   },
   {
