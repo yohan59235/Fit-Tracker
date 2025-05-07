@@ -1022,7 +1022,7 @@ const Exercices = [
     name: "Legs curl allongé à la machine",
     video: "/videos/Jambes/LegCurlAllongeMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Allongez-vous sur la machine, les rouleaux placés au-dessus des chevilles. 2- Saisissez les poignées pour stabiliser votre position. 3- Contractez les ischios pour plier les jambes vers les fessiers. 4- Maintenez une courte pause en haut du mouvement. 5- Redescendez lentement sans reposer complètement. 6- Gardez le bassin collé au banc. 7- Inspirez à la descente, expirez à la flexion.",
     equipment: "- Machine à legs curl",
   },
   {
@@ -1030,7 +1030,7 @@ const Exercices = [
     name: "Leg extension assis à la machine",
     video: "/videos/Jambes/LegExtensionsMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Asseyez-vous sur la machine, dos bien calé contre le dossier. 2- Réglez le rouleau au niveau du bas des tibias. 3- Saisissez les poignées latérales pour stabiliser votre position. 4- Tendez les jambes en contractant les quadriceps. 5- Marquez une courte pause en haut. 6- Revenez lentement à la position initiale. 7- Expirez en montant, inspirez en descendant.",
     equipment: "- Machine de legs extension",
   },
   {
@@ -1038,7 +1038,7 @@ const Exercices = [
     name: "Mollets debout à la machine",
     video: "/videos/Jambes/MolletsDeboutMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez les épaules sous les coussins et les orteils sur la plateforme. 2- Gardez les talons dans le vide et le dos bien droit. 3- Montez sur la pointe des pieds en contractant les mollets. 4- Faites une courte pause en haut. 5- Redescendez lentement sans relâcher complètement. 6- Respirez de manière fluide. 7- Gardez le mouvement contrôlé.",
     equipment: "- Machine pour les mollets",
   },
   {
@@ -1046,7 +1046,7 @@ const Exercices = [
     name: "Mollets à la barre",
     video: "/videos/Jambes/MolletsExtensionBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Placez une barre sur les trapèzes comme pour un squat. 2- Pieds écartés à largeur des épaules, orteils surélevés sur une cale. 3- Montez sur la pointe des pieds en contractant les mollets. 4- Faites une pause en haut du mouvement. 5- Redescendez lentement. 6- Gardez le buste droit. 7- Respirez calmement et régulièrement.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -1054,7 +1054,7 @@ const Exercices = [
     name: "Mollets assis à la machine",
     video: "/videos/Jambes/MolletsMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Asseyez-vous sur la machine, les cuisses sous les coussins. 2- Placez les orteils sur la plateforme, talons dans le vide. 3- Levez les talons en contractant les mollets. 4- Maintenez une pause en haut. 5- Descendez lentement les talons. 6- Gardez le buste stable. 7- Respirez calmement.",
     equipment: "- Machine pour les mollets",
   },
   {
@@ -1062,7 +1062,7 @@ const Exercices = [
     name: "Mollets à la presse déclinée",
     video: "/videos/Jambes/MolletsPresseDecline.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Asseyez-vous à la presse et positionnez les orteils sur la plateforme. 2- Talons dans le vide, jambes tendues sans verrouiller les genoux. 3- Poussez uniquement avec les mollets pour lever les talons. 4- Contractez en haut. 5- Redescendez lentement. 6- Gardez un mouvement fluide et contrôlé. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Presse déclinée",
   },
   {
@@ -1070,7 +1070,7 @@ const Exercices = [
     name: "Presse allongé au rack à squat",
     video: "/videos/Jambes/PresseAllongeRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions: "1- Allongez-vous sur la presse du rack à squat, pieds largeur des épaules. 2- Descendez la charge lentement en fléchissant les genoux. 3- Gardez les talons à plat et le dos bien collé au dossier. 4- Remontez en poussant avec les talons. 5- Ne verrouillez pas complètement les genoux. 6- Expirez en poussant, inspirez à la descente. 7- Maintenez le contrôle du mouvement.",
     equipment: "- Rack à squat",
   },
   {
