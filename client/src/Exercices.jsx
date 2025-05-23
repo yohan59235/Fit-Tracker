@@ -526,7 +526,8 @@ const Exercices = [
     name: "Tractions assistées à la machine",
     video: "/videos/Dos/TractionMachine.mp4",
     muscles: ["Dos"],
-    instructions: "1- Choisissez le poid qui vous asssistera pour l'exercice et placez vos genoux sur l'assise. 2- Saisissez les poignées puis tirez votre corps vers le haut afin d'amener votre menton à hauteur de la barre. 3- Restez contracté pendant une seconde avant de relâcher en douceur afin de revenir en position initiale. 4- Pensez à bien expirer pendant la montée et inspirez pendant la déscente.",
+    instructions:
+      "1- Choisissez le poid qui vous asssistera pour l'exercice et placez vos genoux sur l'assise. 2- Saisissez les poignées puis tirez votre corps vers le haut afin d'amener votre menton à hauteur de la barre. 3- Restez contracté pendant une seconde avant de relâcher en douceur afin de revenir en position initiale. 4- Pensez à bien expirer pendant la montée et inspirez pendant la déscente.",
     equipment: "- Machine pour les tractions",
   },
   {
@@ -534,7 +535,8 @@ const Exercices = [
     name: "Shrugs",
     video: "/videos/Epaules/ContractionTrapezeHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez deux haltères selon vos capacités afin d'effectuer le mouvement correctement sans vous blesser. 2- Saisissez les haltères et maintenez vous debout les bras le long du corps. 3- Durant l'exercice veillez à bien gainer vos abdominaux. 4- Haussez les épaules de haut en bas en faisant bien attention à ne pas faire de mouvement de rotation d'épaule. 5- Veillez à bien respecter le mouvement rectiligne pour vous éviter des blessures aux épaules.",
+    instructions:
+      "1- Choisissez deux haltères selon vos capacités afin d'effectuer le mouvement correctement sans vous blesser. 2- Saisissez les haltères et maintenez vous debout les bras le long du corps. 3- Durant l'exercice veillez à bien gainer vos abdominaux. 4- Haussez les épaules de haut en bas en faisant bien attention à ne pas faire de mouvement de rotation d'épaule. 5- Veillez à bien respecter le mouvement rectiligne pour vous éviter des blessures aux épaules.",
     equipment: "- Haltères",
   },
   {
@@ -542,7 +544,8 @@ const Exercices = [
     name: "Développé militaire assis avec haltères",
     video: "/videos/Epaules/DeveloppeMilitaireAssisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Prenez des haltères à votre convenance puis asseyez vous sur un banc positionné en angle presque droit. 2- Placez les haltères sur vos genoux et collez votre dos au dossier, à l'aide de vos genoux, levez les haltères afin d'arriver en position de départ (bras fléchis sur les co^tés du corps et haltères hauteur d'épaules). 3- Tout en expirant votre air, tendez les bras afin d'amener les haltères au dessus de votre tête. 4- Baissez les bras tout en contrôlant le mouvement et en inspirant, veillez à garder les coudes sur les côtés du corps.",
+    instructions:
+      "1- Prenez des haltères à votre convenance puis asseyez vous sur un banc positionné en angle presque droit. 2- Placez les haltères sur vos genoux et collez votre dos au dossier, à l'aide de vos genoux, levez les haltères afin d'arriver en position de départ (bras fléchis sur les co^tés du corps et haltères hauteur d'épaules). 3- Tout en expirant votre air, tendez les bras afin d'amener les haltères au dessus de votre tête. 4- Baissez les bras tout en contrôlant le mouvement et en inspirant, veillez à garder les coudes sur les côtés du corps.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -550,7 +553,8 @@ const Exercices = [
     name: "Développé militaire à la machine",
     video: "/videos/Epaules/DeveloppeMilitaireMachine.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Asseyez vous sur le siège de la machine et choisissez le poid que vous souhaitez utiliser. 2- Collez votre dos au dossier et placez vos mains sur les poignées. 3- Tout en expirant poussez les poignées vers le haut jusqu'à tendre les bras. 4- Une fois en haut baisser les bras en contrôlant la descente et en inspirant, veillez à garder les bras sur les côtés du corps.",
+    instructions:
+      "1- Asseyez vous sur le siège de la machine et choisissez le poid que vous souhaitez utiliser. 2- Collez votre dos au dossier et placez vos mains sur les poignées. 3- Tout en expirant poussez les poignées vers le haut jusqu'à tendre les bras. 4- Une fois en haut baisser les bras en contrôlant la descente et en inspirant, veillez à garder les bras sur les côtés du corps.",
     equipment: "- Machine de développé militaire",
   },
   {
@@ -558,7 +562,8 @@ const Exercices = [
     name: "Développé miliatire au rack à squat",
     video: "/videos/Epaules/DeveloppeMilitaireRackSquat.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Placez le banc au centre du rack à squat perpendiculairement à la barre. 2- Afin de voir si le banc est à la bonne distance, prenez place sur le banc, qui aura été placé en angle droit, baissez la barre pour qu'elle soit au niveau de votre menton ou votre cou. 3- Placez la barre en position haute et chargez la progressivement. 4- Placez vos mains sur la barre plus large que la largeur de vos épaules, soulevez la barre et pivotez la pour enlever les protections. 5- Baisser lentement la barre, tout en inspirant, afin de l'amener au niveau du menton. 6- Expirez votre air et remontez la barre jusqu'à avoir les bras tendus. 7- Veillez à bien respirer pendant l'exercice et gainez les abdominaux durant l'effort.",
+    instructions:
+      "1- Placez le banc au centre du rack à squat perpendiculairement à la barre. 2- Afin de voir si le banc est à la bonne distance, prenez place sur le banc, qui aura été placé en angle droit, baissez la barre pour qu'elle soit au niveau de votre menton ou votre cou. 3- Placez la barre en position haute et chargez la progressivement. 4- Placez vos mains sur la barre plus large que la largeur de vos épaules, soulevez la barre et pivotez la pour enlever les protections. 5- Baisser lentement la barre, tout en inspirant, afin de l'amener au niveau du menton. 6- Expirez votre air et remontez la barre jusqu'à avoir les bras tendus. 7- Veillez à bien respirer pendant l'exercice et gainez les abdominaux durant l'effort.",
     equipment: "- Barre du rack à squat",
   },
   {
@@ -566,7 +571,8 @@ const Exercices = [
     name: "Élevations postérieures sur un banc avec haltères",
     video: "/videos/Epaules/ElevationBackAssisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez une paire d'haltères et asseyez vous sur un banc. 2- Gardez les jambes serrées et penchez votre buste pour être posé sur vos jambes. 3- Saisissez les haltères dans chaques mains et tout en restant posé sur vos jambes gardez le dos droit. 4- Serrez les omoplates et montez les haltères de chaque côté perpendiculairement à votre corps (en faisant un mouvement en quart de cercle) et essayez de laisser les bras presque tendus (légère flexion du coude). 5- Une fois les bras parallèle au sol redescendez en contrôlant le mouvement pour revenir en position initiale. 6- Veillez à toujours gainer les abdominaux, serrer les omoplates et expirer pendant le montée et inspirer pendant la descente.",
+    instructions:
+      "1- Choisissez une paire d'haltères et asseyez vous sur un banc. 2- Gardez les jambes serrées et penchez votre buste pour être posé sur vos jambes. 3- Saisissez les haltères dans chaques mains et tout en restant posé sur vos jambes gardez le dos droit. 4- Serrez les omoplates et montez les haltères de chaque côté perpendiculairement à votre corps (en faisant un mouvement en quart de cercle) et essayez de laisser les bras presque tendus (légère flexion du coude). 5- Une fois les bras parallèle au sol redescendez en contrôlant le mouvement pour revenir en position initiale. 6- Veillez à toujours gainer les abdominaux, serrer les omoplates et expirer pendant le montée et inspirer pendant la descente.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -574,7 +580,8 @@ const Exercices = [
     name: "Élevations postérieures buste penché avec haltères",
     video: "/videos/Epaules/ElevationBackHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez deux haltères qui vous conviendront pour cet exercice. 2- Placez les jambes largeur de bassin, les genoux légèrement fléchis. 3- Haltères en mains penchez vous délicatement en maintenant votre dos bien droit afin d'avoir le buste presque parallèle au sol. 4- Expirez et montez les haltères en effectuant un mouvement de quart de cercle afin que vos bras soient parallèle au sol mais aussi perpendiculaire à votre corps. 5- Accompagnez le mouvement lors de la descente tout en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer, garder le dos bien droit et serrer les omoplates.",
+    instructions:
+      "1- Choisissez deux haltères qui vous conviendront pour cet exercice. 2- Placez les jambes largeur de bassin, les genoux légèrement fléchis. 3- Haltères en mains penchez vous délicatement en maintenant votre dos bien droit afin d'avoir le buste presque parallèle au sol. 4- Expirez et montez les haltères en effectuant un mouvement de quart de cercle afin que vos bras soient parallèle au sol mais aussi perpendiculaire à votre corps. 5- Accompagnez le mouvement lors de la descente tout en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer, garder le dos bien droit et serrer les omoplates.",
     equipment: "- Haltères",
   },
   {
@@ -582,7 +589,8 @@ const Exercices = [
     name: "Élevations postérieures buste penché à la poulie",
     video: "/videos/Epaules/ElevationBackPoulie.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Équipez les deux côtés de la poulie de poignées, placez les en position basse et choisissez le poid qui vous correspond. 2- Prenez dans chaque main la poignée de la poulie oposée à votre bras (votre main droite avec la poignée de la poulie à votre gauche), placez vos pieds largeur de bassin et fléchissez légèrement les genoux. 3- Penchez vous afin d'avoir le puste presque parallèle au sol. 4- Expirez et montez les poignées (en suivant le tracé d'un quart de cercle) afin de vous retrouver les bras parallèle au sol et perpendiculaire à votre corps. 5- Accompagnez le mouvement pendant la descente et inspirer en même temps afin de revenir en position initiale. 6- Pensez à bien gainer les abdominaux et serrer les omoplates durant l'exercice.",
+    instructions:
+      "1- Équipez les deux côtés de la poulie de poignées, placez les en position basse et choisissez le poid qui vous correspond. 2- Prenez dans chaque main la poignée de la poulie oposée à votre bras (votre main droite avec la poignée de la poulie à votre gauche), placez vos pieds largeur de bassin et fléchissez légèrement les genoux. 3- Penchez vous afin d'avoir le puste presque parallèle au sol. 4- Expirez et montez les poignées (en suivant le tracé d'un quart de cercle) afin de vous retrouver les bras parallèle au sol et perpendiculaire à votre corps. 5- Accompagnez le mouvement pendant la descente et inspirer en même temps afin de revenir en position initiale. 6- Pensez à bien gainer les abdominaux et serrer les omoplates durant l'exercice.",
     equipment: "- Poulie",
   },
   {
@@ -590,7 +598,8 @@ const Exercices = [
     name: "Élevations frontales sur banc avec haltères",
     video: "/videos/Epaules/ElevationfrontaleassisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez une paire d'haltère qui vous conviendra pour faire cet exercice et asseyez vous sur un banc. 2- Saisissez les haltères et mettez vous bien droit les bras le long du corps. 3- Levez vos bras droit devant vous (en suivant le tracé d'un quart de cercle) afin qu'ils soient parallèles au sol. 4- Accompagnez ensuite le mouvement dans la descente afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux et garder le dos droit pour vous éviter des blessures, pensez également à expirer lors de la montée et inspirer lors de la descente.",
+    instructions:
+      "1- Choisissez une paire d'haltère qui vous conviendra pour faire cet exercice et asseyez vous sur un banc. 2- Saisissez les haltères et mettez vous bien droit les bras le long du corps. 3- Levez vos bras droit devant vous (en suivant le tracé d'un quart de cercle) afin qu'ils soient parallèles au sol. 4- Accompagnez ensuite le mouvement dans la descente afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux et garder le dos droit pour vous éviter des blessures, pensez également à expirer lors de la montée et inspirer lors de la descente.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -598,7 +607,8 @@ const Exercices = [
     name: "Élevations frontales debout avec barre",
     video: "/videos/Epaules/ElevationFrontaleBarre.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Prenez une barre EZ et chargez la de manière à réussir l'exercice sans vous blesser. 2- Prenez la barre EZ en main et placez vos pieds largeur d'épaules et fléchissez légèrement les genoux. 3- Expirer en levant la barre droit devant vous afin que vos bras soient parallèle au sol (pendant le mouvement pensez à garder les bras presque tendus avec une légère flexion au niveau des coudes). 4- Accompagnez la barre tout en contrôlant la descente et pensez à inspirer à ce moment la. 5- Veillez à bien gainer les abdominaux durant l'exercice et serrer les omoplates.",
+    instructions:
+      "1- Prenez une barre EZ et chargez la de manière à réussir l'exercice sans vous blesser. 2- Prenez la barre EZ en main et placez vos pieds largeur d'épaules et fléchissez légèrement les genoux. 3- Expirer en levant la barre droit devant vous afin que vos bras soient parallèle au sol (pendant le mouvement pensez à garder les bras presque tendus avec une légère flexion au niveau des coudes). 4- Accompagnez la barre tout en contrôlant la descente et pensez à inspirer à ce moment la. 5- Veillez à bien gainer les abdominaux durant l'exercice et serrer les omoplates.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -606,7 +616,8 @@ const Exercices = [
     name: "Élevations frontales avec barre sur banc incliné",
     video: "/videos/Epaules/ElevationFrontaleBarreSurBanc.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Prenez une barre EZ, chargez la à votre convenance, placez un banc et inclinez le à 45°. 2- Saisissez la barre et chevauchez le banc de manière à poser votre buste sur le haut du dossier du banc, les bras pendant tenant la barre. 3- Serrez les omoplates et montez la barre droit devant vous bras presque tendus (légère flexion des coudes) afin que vos bras soient parallèle au sol. 4- Accompagnez la descente en contrôlant le mouvement, inspirez pendant la descente, afin de revenir en position initiale.",
+    instructions:
+      "1- Prenez une barre EZ, chargez la à votre convenance, placez un banc et inclinez le à 45°. 2- Saisissez la barre et chevauchez le banc de manière à poser votre buste sur le haut du dossier du banc, les bras pendant tenant la barre. 3- Serrez les omoplates et montez la barre droit devant vous bras presque tendus (légère flexion des coudes) afin que vos bras soient parallèle au sol. 4- Accompagnez la descente en contrôlant le mouvement, inspirez pendant la descente, afin de revenir en position initiale.",
     equipment: "- Banc. </br> - Barre avec des poids.",
   },
   {
@@ -614,7 +625,8 @@ const Exercices = [
     name: "Élevations frontale debout à la poulie",
     video: "/videos/Epaules/ElevationFrontaleUnilaterale.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez le poid de la poulie qui vous convient, placez la en position basse et équipez la poulie d'une poignée. 2- Placez vous dos à la poulie, saisissez la poignée d'une main, écartez les pieds largeur bassin et fléchissez légèrement les genoux. 3- Montez le bras en gardant le bras presque tendu (légère flexion au niveau du coude) afin que votre bras soit parallèle au sol. 4- Accompagnez le mouvement lors de la descente afin de revenir en position initiale. 5- Veillez à bien expirer pendant la montée et inspirer pendant la descente, de plus gainer bien les abdominaux.",
+    instructions:
+      "1- Choisissez le poid de la poulie qui vous convient, placez la en position basse et équipez la poulie d'une poignée. 2- Placez vous dos à la poulie, saisissez la poignée d'une main, écartez les pieds largeur bassin et fléchissez légèrement les genoux. 3- Montez le bras en gardant le bras presque tendu (légère flexion au niveau du coude) afin que votre bras soit parallèle au sol. 4- Accompagnez le mouvement lors de la descente afin de revenir en position initiale. 5- Veillez à bien expirer pendant la montée et inspirer pendant la descente, de plus gainer bien les abdominaux.",
     equipment: "- Poulie",
   },
   {
@@ -622,7 +634,8 @@ const Exercices = [
     name: "Élevations latérales à la machine",
     video: "/videos/Epaules/ElevationLateraleMachine.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez le poid qui vous conviendra et asseyez vous sur le siège de la machine. 2- Placez vos avant-bras/coudes au niveau des boudins de la machine, maintenez votre dos bien droit et gainez les abdominaux tout le long de l'exercice. 3- Montez les coudes de façon a vous retrouver les bras parallèle au sol, pensez à expirer pendant le mouvement. 4- Contrôlez la descente tout en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux et pensez à expirer pendant la montée et inspirer lors de la descente",
+    instructions:
+      "1- Choisissez le poid qui vous conviendra et asseyez vous sur le siège de la machine. 2- Placez vos avant-bras/coudes au niveau des boudins de la machine, maintenez votre dos bien droit et gainez les abdominaux tout le long de l'exercice. 3- Montez les coudes de façon a vous retrouver les bras parallèle au sol, pensez à expirer pendant le mouvement. 4- Contrôlez la descente tout en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux et pensez à expirer pendant la montée et inspirer lors de la descente",
     equipment: "- Machine d'élevations latérales",
   },
   {
@@ -630,7 +643,8 @@ const Exercices = [
     name: "Élevations latérales à la poulie",
     video: "/videos/Epaules/ElevationLateralesPoulieBasse.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Équipez les deux côtés de la poulie de poignées et choisissez le poid que vous souhaitez. 2- Placez vous au centre de la poulie, jambes largeur de bassin et les genoux légèrement fléchis. 3- Saisissez les poignées avec les mains qui sont à l'opposé (la main droite prend la poignée du côté gauche de la poulie). 4- Montez les bras simulatanément sur les côtés de votre corps (bras presque tendus avec une légère flexion au niveau du coude) jusqu'à les retrouver parallèle au sol, inspirez lors de la montée. 5- Inspirez et accompagnez le mouvement lors de la descente afin de revenir en position initiale. 6- Veillez à bien gainer les abdominaux et garder les genoux légèrement fléchis.",
+    instructions:
+      "1- Équipez les deux côtés de la poulie de poignées et choisissez le poid que vous souhaitez. 2- Placez vous au centre de la poulie, jambes largeur de bassin et les genoux légèrement fléchis. 3- Saisissez les poignées avec les mains qui sont à l'opposé (la main droite prend la poignée du côté gauche de la poulie). 4- Montez les bras simulatanément sur les côtés de votre corps (bras presque tendus avec une légère flexion au niveau du coude) jusqu'à les retrouver parallèle au sol, inspirez lors de la montée. 5- Inspirez et accompagnez le mouvement lors de la descente afin de revenir en position initiale. 6- Veillez à bien gainer les abdominaux et garder les genoux légèrement fléchis.",
     equipment: "- Poulie",
   },
   {
@@ -638,7 +652,8 @@ const Exercices = [
     name: "Élevations latérales sur banc aux haltères",
     video: "/videos/Epaules/ElevationsLateralesAssisHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez une paire d'haltères qui vous permettra d'effectuer l'exercice et asseyez vous sur un banc qui aura été mit au préalable à 90°. 2- Prenez les haltères en main et laissez les bras pendre le long du corps. 3- Montez les bras presque tendus (tout en gardant une légère flexion au niveau du coude) jusqu'à avoir les bras parallèle au sol. 4- Contrôlez le mouvement lors de la descente afin de revenir en position initiale. 5- Pensez à bien gainer les abdominaux pendant l'execution de l'exercice et pensez également à expirer pendant la montée et inspirer pendant la descente.",
+    instructions:
+      "1- Choisissez une paire d'haltères qui vous permettra d'effectuer l'exercice et asseyez vous sur un banc qui aura été mit au préalable à 90°. 2- Prenez les haltères en main et laissez les bras pendre le long du corps. 3- Montez les bras presque tendus (tout en gardant une légère flexion au niveau du coude) jusqu'à avoir les bras parallèle au sol. 4- Contrôlez le mouvement lors de la descente afin de revenir en position initiale. 5- Pensez à bien gainer les abdominaux pendant l'execution de l'exercice et pensez également à expirer pendant la montée et inspirer pendant la descente.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -646,7 +661,8 @@ const Exercices = [
     name: "Élevations latérales debout avec haltères",
     video: "/videos/Epaules/ElevationsLateralesDeboutHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez une paire d'haltères et positionnez vous jambes légèrement fléchies avec les pieds largeur de bassin. 2- Gardez les bras le long du corps, gainez les abdominaux et serrer les omoplates. 3- Expirez votre air tout en montant vos bras sur les côtés de votre corps jusqu'à les retrouver parallèle au sol. 4- Contrôlez le mouvement lors de la descente tout en inspirant afin de revenir en position initiale. 5- Penser à bien garder les abdominaux gainés et de bien respirer pendant l'exercice.",
+    instructions:
+      "1- Choisissez une paire d'haltères et positionnez vous jambes légèrement fléchies avec les pieds largeur de bassin. 2- Gardez les bras le long du corps, gainez les abdominaux et serrer les omoplates. 3- Expirez votre air tout en montant vos bras sur les côtés de votre corps jusqu'à les retrouver parallèle au sol. 4- Contrôlez le mouvement lors de la descente tout en inspirant afin de revenir en position initiale. 5- Penser à bien garder les abdominaux gainés et de bien respirer pendant l'exercice.",
     equipment: "- Haltères",
   },
   {
@@ -654,7 +670,8 @@ const Exercices = [
     name: "Élevations postérieures buste penché à la poulie",
     video: "/videos/Epaules/ElevationUnilateraleBackPoulie.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Équipez la poignée sur un côté de la poulie, positionnez vous de côté par rapport à la poulie. 2- Positionnez vos pieds largeur de bassin les genoux légèrement fléchis, penchez vous vers l'avant avec le coude le plus proche de la poulie comme appui sur votre cuisse. 3- Saisissez la poignée avec la main à l'opposé de la poulie et gainez bien vos abdominaux. 4- Effectuez la montée de votre bras perpendiculairement à votre corps, tout en expirant votre air, stoppez la montée quand votre bras est parallèle au sol. 5- Inspirez tout en accompagnant le mouvement pendant la descente afin de revenir en position initiale. 6- Veillez à bien gainer les abdominaux et respirer correctement pendant l'exercice.",
+    instructions:
+      "1- Équipez la poignée sur un côté de la poulie, positionnez vous de côté par rapport à la poulie. 2- Positionnez vos pieds largeur de bassin les genoux légèrement fléchis, penchez vous vers l'avant avec le coude le plus proche de la poulie comme appui sur votre cuisse. 3- Saisissez la poignée avec la main à l'opposé de la poulie et gainez bien vos abdominaux. 4- Effectuez la montée de votre bras perpendiculairement à votre corps, tout en expirant votre air, stoppez la montée quand votre bras est parallèle au sol. 5- Inspirez tout en accompagnant le mouvement pendant la descente afin de revenir en position initiale. 6- Veillez à bien gainer les abdominaux et respirer correctement pendant l'exercice.",
     equipment: "- Poulie",
   },
   {
@@ -662,7 +679,8 @@ const Exercices = [
     name: "Élevations latérales avec un haltère",
     video: "/videos/Epaules/ElevationUnilateraleHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Choisissez un haltère qui vous conviendra pour cet exercice. 2- Placez vous proche d'une poulie (ou autres maintien vertical vous permettant de vous agripper dessus) maintenez la barre et tendez le bras afin d'être légèrement penché sur le côté (comme sur la vidéo). 3- Laissez pendre votre bras puis montez le sur le côté de votre corps (en faisant un mouvement de quart de cercle) afin qu'il soit parralèle au sol. 4- Accompagnez le mouvement dans la descente afin de revenir en position initiale avec le bras pendant. 5- Veillez à bien garder les abdominaux gainés et respecter les respiration (expirer pendant la montée et inspirer au moment de relâcher).",
+    instructions:
+      "1- Choisissez un haltère qui vous conviendra pour cet exercice. 2- Placez vous proche d'une poulie (ou autres maintien vertical vous permettant de vous agripper dessus) maintenez la barre et tendez le bras afin d'être légèrement penché sur le côté (comme sur la vidéo). 3- Laissez pendre votre bras puis montez le sur le côté de votre corps (en faisant un mouvement de quart de cercle) afin qu'il soit parralèle au sol. 4- Accompagnez le mouvement dans la descente afin de revenir en position initiale avec le bras pendant. 5- Veillez à bien garder les abdominaux gainés et respecter les respiration (expirer pendant la montée et inspirer au moment de relâcher).",
     equipment: "- Haltères",
   },
   {
@@ -670,7 +688,8 @@ const Exercices = [
     name: "Élevations latérales à la poulie",
     video: "/videos/Epaules/ElevationUnilateralePoulieBasse.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Équipez un côté de la poulie avec une poignée, mettez vos pieds joints proche de la poulie et agrippez vous au montant vertical de la poulie. 2- Choisissez le poids pour faire l'exercice et saisissez la poignée avec votre main libre (celle à l'opposé de la poulie), tendez le bras qui tient le montant afin de vous retrouver légèrement penché sur le côté. 3- Tout en expirant, montez votre bras sur le côté de votre corps jusqu'à ce qu'il soit parallèle au sol. 4- Accompagnez ensuite le mouvement dans la descente en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux durant l'exercice.",
+    instructions:
+      "1- Équipez un côté de la poulie avec une poignée, mettez vos pieds joints proche de la poulie et agrippez vous au montant vertical de la poulie. 2- Choisissez le poids pour faire l'exercice et saisissez la poignée avec votre main libre (celle à l'opposé de la poulie), tendez le bras qui tient le montant afin de vous retrouver légèrement penché sur le côté. 3- Tout en expirant, montez votre bras sur le côté de votre corps jusqu'à ce qu'il soit parallèle au sol. 4- Accompagnez ensuite le mouvement dans la descente en inspirant afin de revenir en position initiale. 5- Veillez à bien gainer les abdominaux durant l'exercice.",
     equipment: "- Poulie",
   },
   {
@@ -678,7 +697,8 @@ const Exercices = [
     name: "Extensions horizontales à la poulie",
     video: "/videos/Epaules/ExtensionHorizontale.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Équipez un côté de la poulie avec une poignée et positionnez la poulie à hauteur de votre coude. 2- Choisissez un poids assez léger et positionnez vous de profil par rapport à la poulie. 3- Saisissez la poignée avec la main à l'opposée de la poulie et fixez votre coude proche du corps, il faut absolument qu'il reste immobile. 4- Uniquement en bougeant votre avant-bras, amenez la poignée à l'opposée de la poulie. 5- Relâchez lentement en ramenant la poignée vers la base de la poulie pour revenir en position initiale. 6- Pensez à gainer les abdominaux, expirez en éloignant la poignée de la poulie et inspirez en la ramenant.",
+    instructions:
+      "1- Équipez un côté de la poulie avec une poignée et positionnez la poulie à hauteur de votre coude. 2- Choisissez un poids assez léger et positionnez vous de profil par rapport à la poulie. 3- Saisissez la poignée avec la main à l'opposée de la poulie et fixez votre coude proche du corps, il faut absolument qu'il reste immobile. 4- Uniquement en bougeant votre avant-bras, amenez la poignée à l'opposée de la poulie. 5- Relâchez lentement en ramenant la poignée vers la base de la poulie pour revenir en position initiale. 6- Pensez à gainer les abdominaux, expirez en éloignant la poignée de la poulie et inspirez en la ramenant.",
     equipment: "- Poulie",
   },
   {
@@ -686,7 +706,8 @@ const Exercices = [
     name: "Shrugs avec barre à la poulie",
     video: "/videos/Epaules/SerrageOmoplates.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Positionnez la poulie en bas et équipez-la d’une barre droite. 2- Choisissez un poids modéré à lourd, selon votre niveau, et tenez-vous debout face à la machine, les pieds écartés à la largeur des hanches. 3- Saisissez la barre en pronation (paumes vers vous), les bras tendus, la barre proche de vos cuisses. 4- Gardez les bras complètement relâchés et les coudes verrouillés tout au long du mouvement. 5- Haussez les épaules aussi haut que possible en direction des oreilles, sans bouger les bras. 6- Marquez une courte pause en haut, puis relâchez lentement les épaules vers le bas. 7- Respirez naturellement : expirez en haussant les épaules, inspirez en revenant à la position de départ.",
+    instructions:
+      "1- Positionnez la poulie en bas et équipez-la d’une barre droite. 2- Choisissez un poids modéré à lourd, selon votre niveau, et tenez-vous debout face à la machine, les pieds écartés à la largeur des hanches. 3- Saisissez la barre en pronation (paumes vers vous), les bras tendus, la barre proche de vos cuisses. 4- Gardez les bras complètement relâchés et les coudes verrouillés tout au long du mouvement. 5- Haussez les épaules aussi haut que possible en direction des oreilles, sans bouger les bras. 6- Marquez une courte pause en haut, puis relâchez lentement les épaules vers le bas. 7- Respirez naturellement : expirez en haussant les épaules, inspirez en revenant à la position de départ.",
     equipment: "- Barre à la poulie",
   },
   {
@@ -694,7 +715,8 @@ const Exercices = [
     name: "Élevations postéreures inversées sur banc à la poulie",
     video: "/videos/Epaules/TirageEpaulesBackPoulieHaute.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Placez un banc entre les deux poulies qui auront été mises en position basse et équipée de poignées. 2- Saisissez une poignée dans chaque main en croisant les câbles, puis allongez-vous sur le banc. 3- Gardez les bras légèrement dléchis et les coudes fixes durant tout le mouvement. 4- Écartez les bras en tirant les poignées vers l’extérieur, jusqu’à ce qu’ils soient alignés avec vos épaules. 5- Marquez une courte pause pour contracter l’arrière des épaules. 6- Revenez lentement à la position initiale en contrôlant la montée. 7- Gardez le tronc gainé, inspirez à la montée, expirez en écartant les bras.",
+    instructions:
+      "1- Placez un banc entre les deux poulies qui auront été mises en position basse et équipée de poignées. 2- Saisissez une poignée dans chaque main en croisant les câbles, puis allongez-vous sur le banc. 3- Gardez les bras légèrement dléchis et les coudes fixes durant tout le mouvement. 4- Écartez les bras en tirant les poignées vers l’extérieur, jusqu’à ce qu’ils soient alignés avec vos épaules. 5- Marquez une courte pause pour contracter l’arrière des épaules. 6- Revenez lentement à la position initiale en contrôlant la montée. 7- Gardez le tronc gainé, inspirez à la montée, expirez en écartant les bras.",
     equipment: "- Banc. </br> - Poulie.",
   },
   {
@@ -702,7 +724,8 @@ const Exercices = [
     name: "Tirage front à la poulie",
     video: "/videos/Epaules/TirageFrontPoulie.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Équipez une corde à une côté de la poulie et positionnez la au milieu. 2- Mettez vous face à la poulie, un genou à terre et l'autre pied comme appui, saisissez la corde des deux mains. 3- Tirez la corde afin d'amener les mains au niveau du visage et en écartant les coudes vers l'extérieur. 4- Relâchez doucement la tension et accompagnez la corde afin de revenir en position initiale. 5- Gardez le dos droit durant l'exercice, expirez lors du tirage et inspirer en relâchant.",
+    instructions:
+      "1- Équipez une corde à une côté de la poulie et positionnez la au milieu. 2- Mettez vous face à la poulie, un genou à terre et l'autre pied comme appui, saisissez la corde des deux mains. 3- Tirez la corde afin d'amener les mains au niveau du visage et en écartant les coudes vers l'extérieur. 4- Relâchez doucement la tension et accompagnez la corde afin de revenir en position initiale. 5- Gardez le dos droit durant l'exercice, expirez lors du tirage et inspirer en relâchant.",
     equipment: "- Poulie",
   },
   {
@@ -710,7 +733,8 @@ const Exercices = [
     name: "Tirage menton à la barre",
     video: "/videos/Epaules/TirageMentonBarre.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Utilisez une barre droite ou EZ, saisie en pronation, mains légèrement plus étroites que la largeur des épaules. 2- Tenez-vous debout, la barre contre les cuisses, bras tendus. 3- Contractez les abdominaux et gardez le buste droit durant tout le mouvement. 4- Tirez la barre verticalement vers le menton en levant les coudes vers le haut et l’extérieur. 5- Marquez un léger arrêt en haut du mouvement, sans dépasser le niveau du menton. 6- Contrôlez la descente jusqu’à revenir en position initiale. 7- Expirez en montant, inspirez en descendant.",
+    instructions:
+      "1- Utilisez une barre droite ou EZ, saisie en pronation, mains légèrement plus étroites que la largeur des épaules. 2- Tenez-vous debout, la barre contre les cuisses, bras tendus. 3- Contractez les abdominaux et gardez le buste droit durant tout le mouvement. 4- Tirez la barre verticalement vers le menton en levant les coudes vers le haut et l’extérieur. 5- Marquez un léger arrêt en haut du mouvement, sans dépasser le niveau du menton. 6- Contrôlez la descente jusqu’à revenir en position initiale. 7- Expirez en montant, inspirez en descendant.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -718,7 +742,8 @@ const Exercices = [
     name: "Tirage menton avec barre à la poulie",
     video: "/videos/Epaules/TirageMentonBarrePoulieBasse.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Fixez une barre droite à une poulie basse et choisissez une charge adaptée. 2- Saisissez la barre en pronation, mains rapprochées, bras tendus vers le bas. 3- Tenez-vous bien droit, épaules basses et regard droit devant vous. 4- Tirez la barre vers le menton en gardant les coudes plus hauts que les poignets. 5- Concentrez-vous sur la contraction des épaules et des trapèzes en haut du mouvement. 6-Redescendez lentement et contrôlez la barre jusqu’en bas. 7- Expirez pendant la montée, inspirez à la descente.",
+    instructions:
+      "1- Fixez une barre droite à une poulie basse et choisissez une charge adaptée. 2- Saisissez la barre en pronation, mains rapprochées, bras tendus vers le bas. 3- Tenez-vous bien droit, épaules basses et regard droit devant vous. 4- Tirez la barre vers le menton en gardant les coudes plus hauts que les poignets. 5- Concentrez-vous sur la contraction des épaules et des trapèzes en haut du mouvement. 6-Redescendez lentement et contrôlez la barre jusqu’en bas. 7- Expirez pendant la montée, inspirez à la descente.",
     equipment: "- Barre de la poulie",
   },
   {
@@ -726,7 +751,8 @@ const Exercices = [
     name: "Tirage menton avec haltères",
     video: "/videos/Epaules/TirageMentonHaltere.mp4",
     muscles: ["Epaules"],
-    instructions: "1- Prenez un haltère dans chaque main, bras tendus devant les cuisses, paumes vers le corps. 2- Gardez les pieds écartés à la largeur des hanches, le dos droit et les abdominaux contractés. 3- Tirez les haltères vers le haut en gardant les coudes pointés vers l’extérieur et plus hauts que les poignets. 4- Arrêtez le mouvement lorsque les haltères sont à hauteur des épaules ou du menton. 5- Marquez un léger arrêt, puis redescendez les haltères lentement. 6- Gardez le mouvement fluide et contrôlé, sans à-coups. 7- Expirez en tirant, inspirez en revenant.",
+    instructions:
+      "1- Prenez un haltère dans chaque main, bras tendus devant les cuisses, paumes vers le corps. 2- Gardez les pieds écartés à la largeur des hanches, le dos droit et les abdominaux contractés. 3- Tirez les haltères vers le haut en gardant les coudes pointés vers l’extérieur et plus hauts que les poignets. 4- Arrêtez le mouvement lorsque les haltères sont à hauteur des épaules ou du menton. 5- Marquez un léger arrêt, puis redescendez les haltères lentement. 6- Gardez le mouvement fluide et contrôlé, sans à-coups. 7- Expirez en tirant, inspirez en revenant.",
     equipment: "- Haltères",
   },
   {
@@ -734,7 +760,8 @@ const Exercices = [
     name: "Torsion au sol",
     video: "/videos/Etirements/StretchBack.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Allongez-vous sur le dos, jambes tendues. 2- Pliez la jambe droite et ramenez le genou vers votre poitrine. 3- Avec la main gauche, guidez le genou droit vers le sol du côté gauche. 4- Étendez le bras droit à l’opposé et tournez la tête vers la droite. 5- Maintenez les épaules collées au sol. 6- Respirez profondément et maintenez 20 à 30 secondes. 7- Changez de côté et répétez.",
+    instructions:
+      "1- Allongez-vous sur le dos, jambes tendues. 2- Pliez la jambe droite et ramenez le genou vers votre poitrine. 3- Avec la main gauche, guidez le genou droit vers le sol du côté gauche. 4- Étendez le bras droit à l’opposé et tournez la tête vers la droite. 5- Maintenez les épaules collées au sol. 6- Respirez profondément et maintenez 20 à 30 secondes. 7- Changez de côté et répétez.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -742,7 +769,8 @@ const Exercices = [
     name: "Inclinaison du buste",
     video: "/videos/Etirements/StretchBackLateral.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Tenez-vous debout ou assis, dos droit, pieds à plat au sol. 2- Levez un bras au-dessus de la tête, l’autre bras le long du corps. 3- Inclinez le buste latéralement du côté opposé au bras levé. 4- Ne penchez pas vers l’avant ni vers l’arrière. 5- Sentez l’étirement sur le flanc et la taille. 6- Maintenez la position 20 à 30 secondes en respirant lentement. 7- Changez de côté.",
+    instructions:
+      "1- Tenez-vous debout ou assis, dos droit, pieds à plat au sol. 2- Levez un bras au-dessus de la tête, l’autre bras le long du corps. 3- Inclinez le buste latéralement du côté opposé au bras levé. 4- Ne penchez pas vers l’avant ni vers l’arrière. 5- Sentez l’étirement sur le flanc et la taille. 6- Maintenez la position 20 à 30 secondes en respirant lentement. 7- Changez de côté.",
     equipment: "- Auncun",
   },
   {
@@ -750,7 +778,8 @@ const Exercices = [
     name: "Étirement du pyramidal",
     video: "/videos/Etirements/StretchFessier.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Allongez-vous sur le dos, genoux pliés, pieds à plat au sol. 2- Placez la cheville droite sur le genou gauche. 3- Attrapez l’arrière de la cuisse gauche et tirez-la vers vous. 4- Gardez la tête au sol et les épaules détendues. 5- Sentez l’étirement dans la fesse droite. 6- Maintenez 20 à 30 secondes en respirant profondément. 7- Inversez les jambes et répétez.",
+    instructions:
+      "1- Allongez-vous sur le dos, genoux pliés, pieds à plat au sol. 2- Placez la cheville droite sur le genou gauche. 3- Attrapez l’arrière de la cuisse gauche et tirez-la vers vous. 4- Gardez la tête au sol et les épaules détendues. 5- Sentez l’étirement dans la fesse droite. 6- Maintenez 20 à 30 secondes en respirant profondément. 7- Inversez les jambes et répétez.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -758,7 +787,8 @@ const Exercices = [
     name: "Étirement des fessiers",
     video: "/videos/Etirements/StretchFessier2.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Alongez-vous au sol jambes tendues. 2- Ramenez une jambe vers vous et crochetez vos mains au niveau du genou. 3- Tirez à l'aide de vos bras votre genou vers votre ventre. 4- Gardez le dos droit et fermez les yeux pour vous détendre. 5- Maintenez la contraction pendant 20 à 30 secondes, puis relâchez et changez le côté. 6- Respirez lentement et profondément.",
+    instructions:
+      "1- Alongez-vous au sol jambes tendues. 2- Ramenez une jambe vers vous et crochetez vos mains au niveau du genou. 3- Tirez à l'aide de vos bras votre genou vers votre ventre. 4- Gardez le dos droit et fermez les yeux pour vous détendre. 5- Maintenez la contraction pendant 20 à 30 secondes, puis relâchez et changez le côté. 6- Respirez lentement et profondément.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -766,7 +796,8 @@ const Exercices = [
     name: "Étirement des avant-bras",
     video: "/videos/Etirements/StretchForArm.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Mettez-vous à genoux à terre, mains au sol les doigts en direction des genoux. 2- Gardez les bras tendus pour garder une tension sur les avant-bras. 3- Basculez lentement votre corps d'avant en arrière pour augmenter ou réduire la tension sur les avant-bras. 4- Sentez l'étirement sous les avant-bras. 5- Maintenez 15 à 30 secondes, sans bloquer la respiration.",
+    instructions:
+      "1- Mettez-vous à genoux à terre, mains au sol les doigts en direction des genoux. 2- Gardez les bras tendus pour garder une tension sur les avant-bras. 3- Basculez lentement votre corps d'avant en arrière pour augmenter ou réduire la tension sur les avant-bras. 4- Sentez l'étirement sous les avant-bras. 5- Maintenez 15 à 30 secondes, sans bloquer la respiration.",
     equipment: "- Auncun",
   },
   {
@@ -774,7 +805,8 @@ const Exercices = [
     name: "Étirement des Ischios sur banc",
     video: "/videos/Etirements/StretchIschio.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Placez un pied tendu sur un banc ou une surface surélevée. 2- Gardez la jambe d’appui bien droite, le dos allongé. 3- Penchez-vous lentement vers l’avant, en direction de la jambe tendue. 4- Gardez le dos droit, sans arrondir le haut du dos. 5- Sentez l’étirement à l’arrière de la cuisse. 6- Maintenez 20 à 30 secondes. 7- Changez de jambe et répétez.",
+    instructions:
+      "1- Placez un pied tendu sur un banc ou une surface surélevée. 2- Gardez la jambe d’appui bien droite, le dos allongé. 3- Penchez-vous lentement vers l’avant, en direction de la jambe tendue. 4- Gardez le dos droit, sans arrondir le haut du dos. 5- Sentez l’étirement à l’arrière de la cuisse. 6- Maintenez 20 à 30 secondes. 7- Changez de jambe et répétez.",
     equipment: "- Banc",
   },
   {
@@ -782,7 +814,8 @@ const Exercices = [
     name: "Étirement des Ischios au sol",
     video: "/videos/Etirements/StretchIschio2.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Placez un genou au sol et l'autre jambe tendue vers l'avant. 2- Penchez votre buste vers la jambe tendue, sans arrondir le dos. 3- Essayez de saisir votre pied ou votre tibia. 4- Gardez la jambe tendue active, sans la relâcher. 5- Sentez l’étirement à l’arrière de la cuisse. 6- Maintenez 20 à 30 secondes, respirez calmement. 7- Changez de jambe.",
+    instructions:
+      "1- Placez un genou au sol et l'autre jambe tendue vers l'avant. 2- Penchez votre buste vers la jambe tendue, sans arrondir le dos. 3- Essayez de saisir votre pied ou votre tibia. 4- Gardez la jambe tendue active, sans la relâcher. 5- Sentez l’étirement à l’arrière de la cuisse. 6- Maintenez 20 à 30 secondes, respirez calmement. 7- Changez de jambe.",
     equipment: "- Auncun",
   },
   {
@@ -790,7 +823,8 @@ const Exercices = [
     name: "Étirement bas du dos / Ischios buste penché",
     video: "/videos/Etirements/StretchLowerBack.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Tenez-vous debout, pieds parallèles et légèrement écartés. 2- Penchez-vous lentement vers l’avant en relâchant le buste. 3- Laissez les bras tomber vers le sol sans forcer. 4- Gardez les jambes légèrement fléchies ou tendues selon votre souplesse. 5- Sentez l’étirement dans les ischios et le bas du dos. 6- Maintenez 20 à 30 secondes, puis redressez-vous doucement. 7- Respirez profondément et relâchez les tensions.",
+    instructions:
+      "1- Tenez-vous debout, pieds parallèles et légèrement écartés. 2- Penchez-vous lentement vers l’avant en relâchant le buste. 3- Laissez les bras tomber vers le sol sans forcer. 4- Gardez les jambes légèrement fléchies ou tendues selon votre souplesse. 5- Sentez l’étirement dans les ischios et le bas du dos. 6- Maintenez 20 à 30 secondes, puis redressez-vous doucement. 7- Respirez profondément et relâchez les tensions.",
     equipment: "- Auncun",
   },
   {
@@ -798,7 +832,8 @@ const Exercices = [
     name: "Étirement dos de chien",
     video: "/videos/Etirements/StretchMiddleBack.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Mettez-vous à quatre pattes, mains sous les épaules, genoux sous les hanches. 2- Inspirez en creusant le dos (dos du chien), regard vers le plafond. 3- Revenez ensuite en position initiale en expirant lentement. 4- Alternez lentement entre les deux positions, en suivant votre respiration. 5- Gardez les mouvements fluides et progressifs. 6- Répétez pendant 30 secondes à 1 minute. 7- Concentrez-vous sur la mobilité de la colonne.",
+    instructions:
+      "1- Mettez-vous à quatre pattes, mains sous les épaules, genoux sous les hanches. 2- Inspirez en creusant le dos (dos du chien), regard vers le plafond. 3- Revenez ensuite en position initiale en expirant lentement. 4- Alternez lentement entre les deux positions, en suivant votre respiration. 5- Gardez les mouvements fluides et progressifs. 6- Répétez pendant 30 secondes à 1 minute. 7- Concentrez-vous sur la mobilité de la colonne.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -806,7 +841,8 @@ const Exercices = [
     name: "Étirement des mollets",
     video: "/videos/Etirements/StretchMollets.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Placez-vous debout, mains sur les hanches. 2- Avancez un pied et reculez l’autre, jambes tendues. 3- Pliez légèrement la jambe avant, gardez le talon arrière au sol. 4- Gardez le dos droit et baissez de plus en plus pour sentir la tension sur le mollet. 5- Sentez l’étirement dans le mollet arrière. 6- Maintenez 20 à 30 secondes. 7- Changez de jambe.",
+    instructions:
+      "1- Placez-vous debout, mains sur les hanches. 2- Avancez un pied et reculez l’autre, jambes tendues. 3- Pliez légèrement la jambe avant, gardez le talon arrière au sol. 4- Gardez le dos droit et baissez de plus en plus pour sentir la tension sur le mollet. 5- Sentez l’étirement dans le mollet arrière. 6- Maintenez 20 à 30 secondes. 7- Changez de jambe.",
     equipment: "- Auncun",
   },
   {
@@ -814,7 +850,8 @@ const Exercices = [
     name: "Étirement du cou",
     video: "/videos/Etirements/StretchNeckBack.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Tenez-vous debout ou assis, dos droit, épaules relâchées. 2- Inclinez doucement la tête vers l'arrière. 3- Sentez l'étirement à l'avant du cou. 4- Maintenez la position 15 à 30 secondes, sans forcer. 5- Redressez lentement la tête. 6- Répétez si besoin, en gardant une respiration calme. 7- Évitez tout mouvement brusque.",
+    instructions:
+      "1- Tenez-vous debout ou assis, dos droit, épaules relâchées. 2- Inclinez doucement la tête vers l'arrière. 3- Sentez l'étirement à l'avant du cou. 4- Maintenez la position 15 à 30 secondes, sans forcer. 5- Redressez lentement la tête. 6- Répétez si besoin, en gardant une respiration calme. 7- Évitez tout mouvement brusque.",
     equipment: "- Auncun",
   },
   {
@@ -822,7 +859,8 @@ const Exercices = [
     name: "Étirement de l'arrière de la nuque",
     video: "/videos/Etirements/StretchNeckFront.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Tenez-vous debout ou assis, dos droit, épaules relâchées. 2- Inclinez doucement la tête vers l’avant, menton vers la poitrine. 3- Sentez l’étirement à l’arrière du cou. 4- Maintenez la position 15 à 30 secondes, sans forcer. 5- Relevez lentement la tête. 6- Répétez si besoin, en gardant une respiration calme. 7- Évitez tout mouvement brusque.",
+    instructions:
+      "1- Tenez-vous debout ou assis, dos droit, épaules relâchées. 2- Inclinez doucement la tête vers l’avant, menton vers la poitrine. 3- Sentez l’étirement à l’arrière du cou. 4- Maintenez la position 15 à 30 secondes, sans forcer. 5- Relevez lentement la tête. 6- Répétez si besoin, en gardant une respiration calme. 7- Évitez tout mouvement brusque.",
     equipment: "- Auncun",
   },
   {
@@ -830,7 +868,8 @@ const Exercices = [
     name: "Étirement latéral de la nuque",
     video: "/videos/Etirements/StretchNeckLateral.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Tenez-vous droit, épaules détendues. 2- Avec la main droite saisissez le poignet de la main gauche. 3- Exercez un tirage sur le bras gauche et en même temps penchez la tête du côté opposé. 4- Sentez la tension sur le côté de la nuque. 5- Maintenez 15 à 30 secondes ren respirant lentement. 6- Redressez la tête et effectuez plusieurs fois ce mouvement. 7- Changez de côté et recommencez.",
+    instructions:
+      "1- Tenez-vous droit, épaules détendues. 2- Avec la main droite saisissez le poignet de la main gauche. 3- Exercez un tirage sur le bras gauche et en même temps penchez la tête du côté opposé. 4- Sentez la tension sur le côté de la nuque. 5- Maintenez 15 à 30 secondes ren respirant lentement. 6- Redressez la tête et effectuez plusieurs fois ce mouvement. 7- Changez de côté et recommencez.",
     equipment: "- Aucun",
   },
   {
@@ -838,7 +877,8 @@ const Exercices = [
     name: "Étirement des pectoraux",
     video: "/videos/Etirements/StretchPecs.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Mettez-vous à genoux face à un banc. 2- Posez vos mains sur le banc, bras tendus et buste penché le regard vers le sol. 3- Avancez le buste vers le sol pour sentir une tension dur les pectoraux. 4- Maintenez la tension pendant 20 à 30 secondes. 5- Redressez-vous doucement jusqu'à regarder à hauteur du banc. 6- Répétez ce mouvement plusieurs fois. 7- Respirez profondément.",
+    instructions:
+      "1- Mettez-vous à genoux face à un banc. 2- Posez vos mains sur le banc, bras tendus et buste penché le regard vers le sol. 3- Avancez le buste vers le sol pour sentir une tension dur les pectoraux. 4- Maintenez la tension pendant 20 à 30 secondes. 5- Redressez-vous doucement jusqu'à regarder à hauteur du banc. 6- Répétez ce mouvement plusieurs fois. 7- Respirez profondément.",
     equipment: "- Banc",
   },
   {
@@ -846,7 +886,8 @@ const Exercices = [
     name: "Étirement des quadriceps au sol",
     video: "/videos/Etirements/StretchQuadri.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Mettez-vous un genou au sol et l'autre pied plus vers l'avant pour vous maintenir. 2- Ramenez le pied vers vos fesses et attrappez le pied avec la main opposée. 3- Tirez sur votre pied afin d'exercer une tension sur vos quadriceps. 4- Maintenez la tension pendant 20 à 30 secondes, puis relâchez. 5- Changez de côté et répétez le mouvement. 6- Respirez pronfondément.",
+    instructions:
+      "1- Mettez-vous un genou au sol et l'autre pied plus vers l'avant pour vous maintenir. 2- Ramenez le pied vers vos fesses et attrappez le pied avec la main opposée. 3- Tirez sur votre pied afin d'exercer une tension sur vos quadriceps. 4- Maintenez la tension pendant 20 à 30 secondes, puis relâchez. 5- Changez de côté et répétez le mouvement. 6- Respirez pronfondément.",
     equipment: "- Tapis de yoga",
   },
   {
@@ -854,7 +895,8 @@ const Exercices = [
     name: "Étirement des épaules",
     video: "/videos/Etirements/StretchShoulders.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Tendez le bras droit devant vous à hauteur d’épaule. 2- Amenez-le à l’horizontale contre la poitrine. 3- Utilisez la main gauche pour tirer doucement le bras vers vous. 4- Gardez les épaules relâchées. 5- Sentez l’étirement à l’arrière de l’épaule droite. 6- Maintenez 20 à 30 secondes. 7- Changez de bras.",
+    instructions:
+      "1- Tendez le bras droit devant vous à hauteur d’épaule. 2- Amenez-le à l’horizontale contre la poitrine. 3- Utilisez la main gauche pour tirer doucement le bras vers vous. 4- Gardez les épaules relâchées. 5- Sentez l’étirement à l’arrière de l’épaule droite. 6- Maintenez 20 à 30 secondes. 7- Changez de bras.",
     equipment: "- Auncun",
   },
   {
@@ -862,7 +904,8 @@ const Exercices = [
     name: "Étirement en hauteur des épaules",
     video: "/videos/Etirements/StretchShouldersUpper.mp4",
     muscles: ["Etirements"],
-    instructions: "1- Mettez-vous debout ou assis sur une chaise. 2- Tendez le bras droit vers le haut, au dessus de votre tête, puis pliez le. 3- Avec l'autre bras attrappez le coude droit. 4- Avec votre bras gauche tirez le coude vers l'arrière de votre tête afin de créer une tension dans l'arrière de l'épaule. 5- Gardez la tension pendant 15 à 30 secondes, puis relâchez. 6- Changez de côté puis recommencez le mouvement. 7- Respirez profondément pendant l'étirement.",
+    instructions:
+      "1- Mettez-vous debout ou assis sur une chaise. 2- Tendez le bras droit vers le haut, au dessus de votre tête, puis pliez le. 3- Avec l'autre bras attrappez le coude droit. 4- Avec votre bras gauche tirez le coude vers l'arrière de votre tête afin de créer une tension dans l'arrière de l'épaule. 5- Gardez la tension pendant 15 à 30 secondes, puis relâchez. 6- Changez de côté puis recommencez le mouvement. 7- Respirez profondément pendant l'étirement.",
     equipment: "- Aucun",
   },
   {
@@ -870,7 +913,8 @@ const Exercices = [
     name: "Adducteurs à la poulie",
     video: "/videos/Jambes/AdducteurPoulie.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Attachez une sangle cheville à la poulie basse et fixez-la à la jambe intérieure par rapport à la machine. 2- Tenez-vous debout, en vous appuyant légèrement sur la machine pour l’équilibre. 3- Gardez le dos droit et les abdominaux gainés. 4- Ramenez la jambe sanglée vers l’intérieur, en croisant devant la jambe d’appui. 5- Marquez un bref temps de contraction en position finale. 6- Revenez lentement à la position de départ. 7- Changez de jambe après la série.",
+    instructions:
+      "1- Attachez une sangle cheville à la poulie basse et fixez-la à la jambe intérieure par rapport à la machine. 2- Tenez-vous debout, en vous appuyant légèrement sur la machine pour l’équilibre. 3- Gardez le dos droit et les abdominaux gainés. 4- Ramenez la jambe sanglée vers l’intérieur, en croisant devant la jambe d’appui. 5- Marquez un bref temps de contraction en position finale. 6- Revenez lentement à la position de départ. 7- Changez de jambe après la série.",
     equipment: "- Poulie",
   },
   {
@@ -878,7 +922,8 @@ const Exercices = [
     name: "Adducteurs à la machine",
     video: "/videos/Jambes/AdducteursMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Asseyez-vous sur la machine et réglez l’écartement des coussins selon votre souplesse. 2- Placez vos jambes contre les coussins extérieurs, dos bien plaqué contre le dossier. 3- Saisissez les poignées latérales pour stabiliser le haut du corps. 4- Rapprochez les jambes lentement en contractant les adducteurs. 5- Marquez une courte pause en fin de mouvement. 6- Renez en position initiale en contrôlant le mouvement. 7- Gardez une respiration régulière et fluide.",
+    instructions:
+      "1- Asseyez-vous sur la machine et réglez l’écartement des coussins selon votre souplesse. 2- Placez vos jambes contre les coussins extérieurs, dos bien plaqué contre le dossier. 3- Saisissez les poignées latérales pour stabiliser le haut du corps. 4- Rapprochez les jambes lentement en contractant les adducteurs. 5- Marquez une courte pause en fin de mouvement. 6- Renez en position initiale en contrôlant le mouvement. 7- Gardez une respiration régulière et fluide.",
     equipment: "- Machine à adducteurs",
   },
   {
@@ -886,7 +931,8 @@ const Exercices = [
     name: "Abducteurs à la poulie",
     video: "/videos/Jambes/AbducteurPoulie.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Attachez une sangle cheville à la poulie basse et fixez-la à la jambe extérieure par rapport à la machine. 2- Tenez-vous debout, en vous appuyant sur la machine pour l’équilibre. 3- Levez la jambe vers l’extérieur sans pencher le buste. 4- Gardez la jambe d’appui légèrement fléchie. 5- Contrôlez le retour à la position de départ. 6- Restez gainé pendant tout le mouvement. 7- Changez de jambe.",
+    instructions:
+      "1- Attachez une sangle cheville à la poulie basse et fixez-la à la jambe extérieure par rapport à la machine. 2- Tenez-vous debout, en vous appuyant sur la machine pour l’équilibre. 3- Levez la jambe vers l’extérieur sans pencher le buste. 4- Gardez la jambe d’appui légèrement fléchie. 5- Contrôlez le retour à la position de départ. 6- Restez gainé pendant tout le mouvement. 7- Changez de jambe.",
     equipment: "- Poulie",
   },
   {
@@ -894,7 +940,8 @@ const Exercices = [
     name: "Abducteurs à la machine",
     video: "/videos/Jambes/AbducteursMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Asseyez-vous sur la machine, jambes à l’intérieur des coussins. 2- Réglez l’écartement des jambes selon votre confort. 3- Saisissez les poignées pour maintenir votre posture. 4- Écartez les jambes lentement en contractant les muscles extérieurs des cuisses. 5- Maintenez la position une seconde en fin de mouvement. 6- Revenez doucement à la position de départ. 7- Inspirez à l’écartement, expirez au retour.",
+    instructions:
+      "1- Asseyez-vous sur la machine, jambes à l’intérieur des coussins. 2- Réglez l’écartement des jambes selon votre confort. 3- Saisissez les poignées pour maintenir votre posture. 4- Écartez les jambes lentement en contractant les muscles extérieurs des cuisses. 5- Maintenez la position une seconde en fin de mouvement. 6- Revenez doucement à la position de départ. 7- Inspirez à l’écartement, expirez au retour.",
     equipment: "- Machine à abducteurs",
   },
   {
@@ -902,7 +949,8 @@ const Exercices = [
     name: "Soulevé de terre jambes tendues aux haltères",
     video: "/videos/Jambes/ExtensionLegHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Tenez deux haltères bras tendus devant les cuisses, pieds largeur des hanches. 2- Gardez les jambes légèrement fléchies et le dos bien droit. 3- Penchez vous vers l’avant en poussant les hanches en arrière. 4- Descendez les haltères jusqu’à mi tibia, sans arrondir le dos. 5- Contractez les ischios et fessiers pour remonter. 6- Expirez en remontant, inspirez à la descente. 7- Gardez un mouvement fluide et contrôlé.",
+    instructions:
+      "1- Tenez deux haltères bras tendus devant les cuisses, pieds largeur des hanches. 2- Gardez les jambes légèrement fléchies et le dos bien droit. 3- Penchez vous vers l’avant en poussant les hanches en arrière. 4- Descendez les haltères jusqu’à mi tibia, sans arrondir le dos. 5- Contractez les ischios et fessiers pour remonter. 6- Expirez en remontant, inspirez à la descente. 7- Gardez un mouvement fluide et contrôlé.",
     equipment: "- Haltères",
   },
   {
@@ -910,7 +958,8 @@ const Exercices = [
     name: "Fentes latérales avec un haltère",
     video: "/videos/Jambes/FenteCoteHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Tenez un haltère contre la poitrine avec les deux mains. 2- Écartez les jambes sur les côtés de manière à avoir le tibia en angle droit par rapport au sol quand vous faites une fente. 3- Fléchissez le genou droit tout en gardant la jambe gauche tendue. 4- Gardez le dos droit et le poids du corps sur le talon droit. 5- Tendez la jambe droite afin de revenir en position initiale. 6- Faites plusieurs répétitions puis changez de côté. 7- Inspirez à la descente, expirez à la remontée.",
+    instructions:
+      "1- Tenez un haltère contre la poitrine avec les deux mains. 2- Écartez les jambes sur les côtés de manière à avoir le tibia en angle droit par rapport au sol quand vous faites une fente. 3- Fléchissez le genou droit tout en gardant la jambe gauche tendue. 4- Gardez le dos droit et le poids du corps sur le talon droit. 5- Tendez la jambe droite afin de revenir en position initiale. 6- Faites plusieurs répétitions puis changez de côté. 7- Inspirez à la descente, expirez à la remontée.",
     equipment: "- Haltère",
   },
   {
@@ -918,7 +967,8 @@ const Exercices = [
     name: "Fentes alternées avec haltères",
     video: "/videos/Jambes/FenteHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Tenez un haltère dans chaque main, bras le long du corps. 2- Faites un pas en avant avec la jambe droite. 3- Fléchissez les deux genoux à 90 degrés, sans toucher le sol. 4- Poussez sur le talon avant pour revenir debout. 5- Alternez avec la jambe gauche. 6- Gardez le dos droit et le regard devant vous. 7- Contrôlez la descente et gardez les abdos engagés.",
+    instructions:
+      "1- Tenez un haltère dans chaque main, bras le long du corps. 2- Faites un pas en avant avec la jambe droite. 3- Fléchissez les deux genoux à 90 degrés, sans toucher le sol. 4- Poussez sur le talon avant pour revenir debout. 5- Alternez avec la jambe gauche. 6- Gardez le dos droit et le regard devant vous. 7- Contrôlez la descente et gardez les abdos engagés.",
     equipment: "- Haltères",
   },
   {
@@ -926,7 +976,8 @@ const Exercices = [
     name: "Fentes latérales avec barre",
     video: "/videos/Jambes/FentesDeCoteUnilateralBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez une barre sur vos trapèzes et tenez-la fermement. 2- Écartez les jambes sur les côtés de manière à avoir le tibia en angle droit par rapport au sol quand vous faites une fente. 3- Fléchissez le genou droit tout en gardant la jambe gauche tendue. 4- Gardez le dos droit et le poids du corps sur le talon droit. 5- Tendez la jambe droite afin de revenir en position initiale. 6- Faites plusieurs répétitions puis changez de côté. 7- Inspirez à la descente, expirez à la remontée.",
+    instructions:
+      "1- Placez une barre sur vos trapèzes et tenez-la fermement. 2- Écartez les jambes sur les côtés de manière à avoir le tibia en angle droit par rapport au sol quand vous faites une fente. 3- Fléchissez le genou droit tout en gardant la jambe gauche tendue. 4- Gardez le dos droit et le poids du corps sur le talon droit. 5- Tendez la jambe droite afin de revenir en position initiale. 6- Faites plusieurs répétitions puis changez de côté. 7- Inspirez à la descente, expirez à la remontée.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -934,7 +985,8 @@ const Exercices = [
     name: "Fentes de face avec barre",
     video: "/videos/Jambes/FentesFaceBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez une barre sur vos trapèzes et tenez la fermement. 2- Faites un grand pas en avant avec la jambe droite. 3- Fléchissez les deux genoux à 90 degrés. 4- Gardez le buste droit et stable. 5- Poussez sur le talon avant pour tendre la jambe en gardant une légère fléxion sur le genou avant et tendez complètememnt la jambe arrière. 6- Faites plusieurs répétitions puis changez de jambe. 7- Respirez en descendant, expirez en remontant.",
+    instructions:
+      "1- Placez une barre sur vos trapèzes et tenez la fermement. 2- Faites un grand pas en avant avec la jambe droite. 3- Fléchissez les deux genoux à 90 degrés. 4- Gardez le buste droit et stable. 5- Poussez sur le talon avant pour tendre la jambe en gardant une légère fléxion sur le genou avant et tendez complètememnt la jambe arrière. 6- Faites plusieurs répétitions puis changez de jambe. 7- Respirez en descendant, expirez en remontant.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -942,7 +994,8 @@ const Exercices = [
     name: "Fentes latérales au poids du corps",
     video: "/videos/Jambes/FentesGauchePDC.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Tenez-vous debout, pieds écartés bien plus que la largeur des épaules. 2- Fléchissez le genou droit en gardant la jambe gauche tendue. 3- Gardez le buste droit, bras tendus devant pour l’équilibre. 4- Revenez en position initiale en poussant sur la jambe droite. 5- Faites plusieurs répétitions puis changez de jambe. 6- Gardez un rythme contrôlé.",
+    instructions:
+      "1- Tenez-vous debout, pieds écartés bien plus que la largeur des épaules. 2- Fléchissez le genou droit en gardant la jambe gauche tendue. 3- Gardez le buste droit, bras tendus devant pour l’équilibre. 4- Revenez en position initiale en poussant sur la jambe droite. 5- Faites plusieurs répétitions puis changez de jambe. 6- Gardez un rythme contrôlé.",
     equipment: "- Auncun",
   },
   {
@@ -950,7 +1003,8 @@ const Exercices = [
     name: "Fentes de face au rack à squat",
     video: "/videos/Jambes/FentesRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez la barre sur vos trapèzes depuis le rack à squat. 2- Faites un pas en avant avec la jambe droite. 3- Descendez jusqu’à ce que les deux genoux soient à 90°. 4- Gardez le buste droit et stable. 5- Revenez en poussant sur le talon de la jambe avant. 6- Faites plusieurs répétitions puis changez de jambe 7- Expirez en remontant.",
+    instructions:
+      "1- Placez la barre sur vos trapèzes depuis le rack à squat. 2- Faites un pas en avant avec la jambe droite. 3- Descendez jusqu’à ce que les deux genoux soient à 90°. 4- Gardez le buste droit et stable. 5- Revenez en poussant sur le talon de la jambe avant. 6- Faites plusieurs répétitions puis changez de jambe 7- Expirez en remontant.",
     equipment: "- Rack à squat",
   },
   {
@@ -958,7 +1012,8 @@ const Exercices = [
     name: "Fessiers à la poulie",
     video: "/videos/Jambes/FessierPoulie.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Attachez la sangle cheville à la poulie basse. 2- Placez un banc dans la longueur face à la poulie et prenez appui dessus, jambe gauche dans le vide. 3- Tendez la jambe vers l’arrière en contractant le fessier. 4- Marquez une pause en extension maximale. 5- Revenez lentement. 6- Ne cambrez pas le dos, restez gainé. 7- Après plusieurs répétitions changez de jambe.",
+    instructions:
+      "1- Attachez la sangle cheville à la poulie basse. 2- Placez un banc dans la longueur face à la poulie et prenez appui dessus, jambe gauche dans le vide. 3- Tendez la jambe vers l’arrière en contractant le fessier. 4- Marquez une pause en extension maximale. 5- Revenez lentement. 6- Ne cambrez pas le dos, restez gainé. 7- Après plusieurs répétitions changez de jambe.",
     equipment: "- Poulie",
   },
   {
@@ -966,7 +1021,8 @@ const Exercices = [
     name: "Soulevé de terre jambes tendues au rack à squat",
     video: "/videos/Jambes/FessierRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez une barre sur le sol dans le rack et tenez la en pronation. 2- Pieds écartés à la largeur des hanches, jambes légèrement fléchies. 3- Inclinez le buste vers l’avant en gardant le dos plat. 4- Descendez la barre jusqu’à mi tibia sans arrondir le dos. 5- Remontez en contractant les ischios et les fessiers. 6- Gardez les abdos engagés tout au long du mouvement. 7- Inspirez à la descente, expirez à la remontée.",
+    instructions:
+      "1- Placez une barre sur le sol dans le rack et tenez la en pronation. 2- Pieds écartés à la largeur des hanches, jambes légèrement fléchies. 3- Inclinez le buste vers l’avant en gardant le dos plat. 4- Descendez la barre jusqu’à mi tibia sans arrondir le dos. 5- Remontez en contractant les ischios et les fessiers. 6- Gardez les abdos engagés tout au long du mouvement. 7- Inspirez à la descente, expirez à la remontée.",
     equipment: "- Rack à squat",
   },
   {
@@ -974,7 +1030,8 @@ const Exercices = [
     name: "Front squat au rack à squat",
     video: "/videos/Jambes/FrontSquatRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez la barre à l’avant de vos épaules, coudes hauts. 2- Pieds à largeur d’épaules, orteils légèrement tournés vers l’extérieur. 3- Descendez en fléchissant les genoux, en gardant le dos droit. 4- Allez jusqu’à ce que les cuisses soient parallèles au sol. 5- Remontez en poussant sur les talons. 6- Gardez les coudes levés et le regard droit. 7- Expirez en remontant.",
+    instructions:
+      "1- Placez la barre à l’avant de vos épaules, coudes hauts. 2- Pieds à largeur d’épaules, orteils légèrement tournés vers l’extérieur. 3- Descendez en fléchissant les genoux, en gardant le dos droit. 4- Allez jusqu’à ce que les cuisses soient parallèles au sol. 5- Remontez en poussant sur les talons. 6- Gardez les coudes levés et le regard droit. 7- Expirez en remontant.",
     equipment: "- Rack à squat",
   },
   {
@@ -982,7 +1039,8 @@ const Exercices = [
     name: "Fessiers sur un banc au rack à squat",
     video: "/videos/Jambes/HipTrustAllongeRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Alongez vous sur le banc à plat ventre. 2- Placez vos pieds sous la barre. 3- Poussez vos pieds et la barre vers le haut. 4- Sentez la contraction des fessiers. 5- Gardez la contraction pendant une seconde, puis relâchez. 5- Redescendez lentement en gardant le contrôle. 6- Ne cambrez pas le dos. 7- Inspirez en bas, expirez en haut.",
+    instructions:
+      "1- Alongez vous sur le banc à plat ventre. 2- Placez vos pieds sous la barre. 3- Poussez vos pieds et la barre vers le haut. 4- Sentez la contraction des fessiers. 5- Gardez la contraction pendant une seconde, puis relâchez. 5- Redescendez lentement en gardant le contrôle. 6- Ne cambrez pas le dos. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Banc, rack à squat",
   },
   {
@@ -990,7 +1048,8 @@ const Exercices = [
     name: "Hip Trust allongé sur le dos à la barre",
     video: "/videos/Jambes/HipTrustBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Allongez-vous au sol, genoux pliés, pieds à plat. 2- Placez la barre au-dessus du bassin. 3- Poussez les hanches vers le haut en contractant les fessiers. 4- Alignez les épaules, les hanches et les genoux. 5- Maintenez une seconde en haut. 6- Redescendez lentement. 7- Inspirez en bas, expirez en haut.",
+    instructions:
+      "1- Allongez-vous au sol, genoux pliés, pieds à plat. 2- Placez la barre au-dessus du bassin. 3- Poussez les hanches vers le haut en contractant les fessiers. 4- Alignez les épaules, les hanches et les genoux. 5- Maintenez une seconde en haut. 6- Redescendez lentement. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -998,7 +1057,8 @@ const Exercices = [
     name: "Hip Trust debout à la machine",
     video: "/videos/Jambes/HipTrustDeboutMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez-vous contre le boudin, pied droit sur le repose pied. 2- Poussez votre pied vers l'arrière. 3- Sentez la contraction du fessier. 4- Gardez la contraction pendant une seconde. 5- Relâchez doucement et revenez en position initiale. 6- Restez gainé. 7- Respirez de façon fluide.",
+    instructions:
+      "1- Placez-vous contre le boudin, pied droit sur le repose pied. 2- Poussez votre pied vers l'arrière. 3- Sentez la contraction du fessier. 4- Gardez la contraction pendant une seconde. 5- Relâchez doucement et revenez en position initiale. 6- Restez gainé. 7- Respirez de façon fluide.",
     equipment: "- Machine à hip trust",
   },
   {
@@ -1006,7 +1066,8 @@ const Exercices = [
     name: "Hip Trust à la poulie",
     video: "/videos/Jambes/HipTrustGenouxPoulieBasse.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Positionnez la poulie en bas et accrochez y soit deux poignées soit la corde. 2- Mettez-vous dos à la poulie et à genoux. 3- Passer les mains entre vos jambes pour saisir les poignées. 4- Gardez le dos droit et contractez les fessiers en redressant votre buste et vos cuisses. 5- Gardez la contraction et sentez vos fessier se contracter. 6- Relâchez lentement en contrôlant le mouvement. 7- Gainez et respirez de manière contrôlée.",
+    instructions:
+      "1- Positionnez la poulie en bas et accrochez y soit deux poignées soit la corde. 2- Mettez-vous dos à la poulie et à genoux. 3- Passer les mains entre vos jambes pour saisir les poignées. 4- Gardez le dos droit et contractez les fessiers en redressant votre buste et vos cuisses. 5- Gardez la contraction et sentez vos fessier se contracter. 6- Relâchez lentement en contrôlant le mouvement. 7- Gainez et respirez de manière contrôlée.",
     equipment: "- Poulie",
   },
   {
@@ -1014,7 +1075,8 @@ const Exercices = [
     name: "Hip Trust assis à la machine",
     video: "/videos/Jambes/HipTrustMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Asseyez-vous et placez la barre rembourrée sur vos hanches. 2- Pieds à plat, genoux pliés à 90°. 3- Poussez les hanches vers le haut contre la charge. 4- Contractez les fessiers au sommet. 5- Redescendez doucement. 6- Gardez le dos droit. 7- Inspirez en bas, expirez en haut.",
+    instructions:
+      "1- Asseyez-vous et placez la barre rembourrée sur vos hanches. 2- Pieds à plat, genoux pliés à 90°. 3- Poussez les hanches vers le haut contre la charge. 4- Contractez les fessiers au sommet. 5- Redescendez doucement. 6- Gardez le dos droit. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Machine à hip trust",
   },
   {
@@ -1022,7 +1084,8 @@ const Exercices = [
     name: "Legs curl allongé à la machine",
     video: "/videos/Jambes/LegCurlAllongeMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Allongez-vous sur la machine, les rouleaux placés au-dessus des chevilles. 2- Saisissez les poignées pour stabiliser votre position. 3- Contractez les ischios pour plier les jambes vers les fessiers. 4- Maintenez une courte pause en haut du mouvement. 5- Redescendez lentement sans reposer complètement. 6- Gardez le bassin collé au banc. 7- Inspirez à la descente, expirez à la flexion.",
+    instructions:
+      "1- Allongez-vous sur la machine, les rouleaux placés au-dessus des chevilles. 2- Saisissez les poignées pour stabiliser votre position. 3- Contractez les ischios pour plier les jambes vers les fessiers. 4- Maintenez une courte pause en haut du mouvement. 5- Redescendez lentement sans reposer complètement. 6- Gardez le bassin collé au banc. 7- Inspirez à la descente, expirez à la flexion.",
     equipment: "- Machine à legs curl",
   },
   {
@@ -1030,7 +1093,8 @@ const Exercices = [
     name: "Leg extension assis à la machine",
     video: "/videos/Jambes/LegExtensionsMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Asseyez-vous sur la machine, dos bien calé contre le dossier. 2- Réglez le rouleau au niveau du bas des tibias. 3- Saisissez les poignées latérales pour stabiliser votre position. 4- Tendez les jambes en contractant les quadriceps. 5- Marquez une courte pause en haut. 6- Revenez lentement à la position initiale. 7- Expirez en montant, inspirez en descendant.",
+    instructions:
+      "1- Asseyez-vous sur la machine, dos bien calé contre le dossier. 2- Réglez le rouleau au niveau du bas des tibias. 3- Saisissez les poignées latérales pour stabiliser votre position. 4- Tendez les jambes en contractant les quadriceps. 5- Marquez une courte pause en haut. 6- Revenez lentement à la position initiale. 7- Expirez en montant, inspirez en descendant.",
     equipment: "- Machine de legs extension",
   },
   {
@@ -1038,7 +1102,8 @@ const Exercices = [
     name: "Mollets debout à la machine",
     video: "/videos/Jambes/MolletsDeboutMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez les épaules sous les coussins et les orteils sur la plateforme. 2- Gardez les talons dans le vide et le dos bien droit. 3- Montez sur la pointe des pieds en contractant les mollets. 4- Faites une courte pause en haut. 5- Redescendez lentement sans relâcher complètement. 6- Respirez de manière fluide. 7- Gardez le mouvement contrôlé.",
+    instructions:
+      "1- Placez les épaules sous les coussins et les orteils sur la plateforme. 2- Gardez les talons dans le vide et le dos bien droit. 3- Montez sur la pointe des pieds en contractant les mollets. 4- Faites une courte pause en haut. 5- Redescendez lentement sans relâcher complètement. 6- Respirez de manière fluide. 7- Gardez le mouvement contrôlé.",
     equipment: "- Machine pour les mollets",
   },
   {
@@ -1046,7 +1111,8 @@ const Exercices = [
     name: "Mollets à la barre",
     video: "/videos/Jambes/MolletsExtensionBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Placez une barre sur les trapèzes comme pour un squat. 2- Pieds écartés à largeur des épaules, orteils surélevés sur une cale. 3- Montez sur la pointe des pieds en contractant les mollets. 4- Faites une pause en haut du mouvement. 5- Redescendez lentement. 6- Gardez le buste droit. 7- Respirez calmement et régulièrement.",
+    instructions:
+      "1- Placez une barre sur les trapèzes comme pour un squat. 2- Pieds écartés à largeur des épaules, orteils surélevés sur une cale. 3- Montez sur la pointe des pieds en contractant les mollets. 4- Faites une pause en haut du mouvement. 5- Redescendez lentement. 6- Gardez le buste droit. 7- Respirez calmement et régulièrement.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -1054,7 +1120,8 @@ const Exercices = [
     name: "Mollets assis à la machine",
     video: "/videos/Jambes/MolletsMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Asseyez-vous sur la machine, les cuisses sous les coussins. 2- Placez les orteils sur la plateforme, talons dans le vide. 3- Levez les talons en contractant les mollets. 4- Maintenez une pause en haut. 5- Descendez lentement les talons. 6- Gardez le buste stable. 7- Respirez calmement.",
+    instructions:
+      "1- Asseyez-vous sur la machine, les cuisses sous les coussins. 2- Placez les orteils sur la plateforme, talons dans le vide. 3- Levez les talons en contractant les mollets. 4- Maintenez une pause en haut. 5- Descendez lentement les talons. 6- Gardez le buste stable. 7- Respirez calmement.",
     equipment: "- Machine pour les mollets",
   },
   {
@@ -1062,7 +1129,8 @@ const Exercices = [
     name: "Mollets à la presse déclinée",
     video: "/videos/Jambes/MolletsPresseDecline.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Asseyez-vous à la presse et positionnez les orteils sur la plateforme. 2- Talons dans le vide, jambes tendues sans verrouiller les genoux. 3- Poussez uniquement avec les mollets pour lever les talons. 4- Contractez en haut. 5- Redescendez lentement. 6- Gardez un mouvement fluide et contrôlé. 7- Inspirez en bas, expirez en haut.",
+    instructions:
+      "1- Asseyez-vous à la presse et positionnez les orteils sur la plateforme. 2- Talons dans le vide, jambes tendues sans verrouiller les genoux. 3- Poussez uniquement avec les mollets pour lever les talons. 4- Contractez en haut. 5- Redescendez lentement. 6- Gardez un mouvement fluide et contrôlé. 7- Inspirez en bas, expirez en haut.",
     equipment: "- Presse déclinée",
   },
   {
@@ -1070,7 +1138,8 @@ const Exercices = [
     name: "Presse allongé au rack à squat",
     video: "/videos/Jambes/PresseAllongeRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "1- Allongez-vous sur la presse du rack à squat, pieds largeur des épaules. 2- Descendez la charge lentement en fléchissant les genoux. 3- Gardez les talons à plat et le dos bien collé au dossier. 4- Remontez en poussant avec les talons. 5- Ne verrouillez pas complètement les genoux. 6- Expirez en poussant, inspirez à la descente. 7- Maintenez le contrôle du mouvement.",
+    instructions:
+      "1- Allongez-vous sur la presse du rack à squat, pieds largeur des épaules. 2- Descendez la charge lentement en fléchissant les genoux. 3- Gardez les talons à plat et le dos bien collé au dossier. 4- Remontez en poussant avec les talons. 5- Ne verrouillez pas complètement les genoux. 6- Expirez en poussant, inspirez à la descente. 7- Maintenez le contrôle du mouvement.",
     equipment: "- Rack à squat",
   },
   {
@@ -1078,7 +1147,8 @@ const Exercices = [
     name: "Presse déclinée",
     video: "/videos/Jambes/PresseDecline.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Installez-vous sur la presse déclinée, dos bien appuyé contre le dossier et pieds largeur des épaules sur la plateforme. 2- Déverrouillez la charge et fléchissez lentement les jambes pour la descente. 3- Gardez le dos collé et les talons bien en contact avec la plateforme. 4- Remontez en poussant avec les talons sans donner d'à-coups. 5- Ne verrouillez pas complètement les genoux en haut du mouvement. 6- Inspirez à la descente, expirez à la poussée. 7- Contrôlez le mouvement du début à la fin.",
     equipment: "- Presse déclinée",
   },
   {
@@ -1086,7 +1156,8 @@ const Exercices = [
     name: "Presse horizontale à la machine",
     video: "/videos/Jambes/PresseHorizontaleMachine.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Asseyez-vous sur la machine, pieds posés à plat sur la plateforme, largeur des hanches. 2- Déverrouillez la charge et poussez légèrement pour commencer. 3- Ramenez lentement la plateforme en pliant les jambes. 4- Poussez pour revenir en position initiale sans tendre complètement les jambes. 5- Gardez le dos plaqué au dossier durant tout le mouvement. 6- Expirez à la poussée, inspirez en descendant. 7- Maintenez un mouvement fluide et contrôlé.",
     equipment: "- Machine à presse horizontale",
   },
   {
@@ -1094,7 +1165,8 @@ const Exercices = [
     name: "Presse inclinée",
     video: "/videos/Jambes/PresseIncline.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Prenez place sur la machine, dos contre le dossier pieds sur la plateforme largeur d'épaules. 2- Déverrouillez la charge et fléchissez lentement les genoux pour la descente. 3- Assurez-vous que les talons restent bien à plat et que le dos ne se décolle pas. 4- Remontez en poussant avec les talons jusqu'à la position de départ. 5- Ne verrouillez jamais complètement les genoux. 6- Inspirez en descendant, expirez en poussant. 7- Contrôlez l’ensemble du mouvement sans précipitation.",
     equipment: "- Presse inclinée",
   },
   {
@@ -1102,7 +1174,8 @@ const Exercices = [
     name: "Reversal Squat",
     video: "/videos/Jambes/ReverseSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Placez vous face à la presse inclinée, épaules sous les boudins, pieds sur la plateforme largeur d'épaules. 2- Descendez lentement jusqu’à atteindre un angle de 90° ou plus au niveau des genoux. 3- Faites une pause en bas du mouvement (0,5 à 1 seconde). 4- Remontez en poussant fort avec les jambes, sans rebondir. 5- Gardez le dos droit et le buste relevé tout au long du mouvement. 6- Expirez à la montée, inspirez à la descente. 7- Ne sacrifiez jamais la forme pour la charge.",
     equipment: "- Presse inclinée",
   },
   {
@@ -1110,7 +1183,8 @@ const Exercices = [
     name: "Soulevé de terre",
     video: "/videos/Jambes/SDTBarre(jambes-dos).mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Tenez-vous debout, pieds largeur des hanches, barre au sol proche des tibias. 2- Penchez-vous avec le dos droit et saisissez la barre en pronation ou mixte. 3- Engagez les abdos et redressez-vous en poussant avec les jambes. 4- Gardez la barre proche du corps durant toute la montée. 5- Verrouillez les hanches en haut sans cambrer le dos. 6- Expirez à la montée, inspirez en redescendant la barre. 7- Contrôlez la descente pour éviter les blessures.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -1118,7 +1192,8 @@ const Exercices = [
     name: "Squat sumo au rack à squat",
     video: "/videos/Jambes/SquatSumoRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Placez-vous sous la barre, pieds plus larges que les épaules, pointes légèrement vers l’extérieur. 2- Descendez lentement en gardant le dos droit et les genoux alignés avec les pointes de pieds. 3- Abaissez les hanches sous le niveau des genoux si possible. 4- Poussez en remontant avec les talons et l’extérieur des pieds. 5- Ne verrouillez pas les genoux en haut du mouvement. 6- Inspirez à la descente, expirez à la montée. 7- Restez gainé et stable pendant toute l'exécution.",
     equipment: "- Rack à squat",
   },
   {
@@ -1126,7 +1201,8 @@ const Exercices = [
     name: "Soulevé de terre sumo à la barre",
     video: "/videos/Jambes/SDTSumoBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Écartez les pieds largement, pointes vers l’extérieur, barre centrée entre les jambes. 2- Baissez les hanches, dos droit, et saisissez la barre avec les bras à l’intérieur des genoux. 3- Redressez-vous en poussant fort avec les jambes et en gardant la barre proche du corps. 4- Verrouillez les hanches en haut du mouvement, sans cambrer. 5- Gardez les épaules en arrière et le buste droit. 6- Expirez à la montée, inspirez à la descente. 7- Exécutez chaque répétition avec contrôle.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -1134,7 +1210,8 @@ const Exercices = [
     name: "Soulevé de terre sumo au rack à squat",
     video: "/videos/Jambes/SDTSumoRackSquat.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Positionnez-vous dans le rack, pieds en position sumo, barre au niveau des tibias. 2- Prenez la barre avec les bras à l’intérieur des jambes, dos bien droit. 3- Levez-vous en poussant avec les talons et en gardant la barre contre les jambes. 4- Contractez les fessiers en haut du mouvement. 5- Redescendez lentement en gardant le contrôle du mouvement. 6- Inspirez en descendant, expirez en montant. 7- Ne laissez jamais la barre s’éloigner du corps.",
     equipment: "- Rack à squat",
   },
   {
@@ -1142,7 +1219,8 @@ const Exercices = [
     name: "Squat simple à la barre",
     video: "/videos/Jambes/SquatBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Pieds largeur des épaules, barre posée sur les trapèzes. 2- Descendez lentement en gardant le dos droit et les genoux dans l’axe des pieds. 3- Allez jusqu’à ce que les cuisses soient parallèles au sol ou plus bas. 4- Remontez en poussant avec les talons. 5- Ne bloquez pas complètement les genoux en haut. 6- Inspirez en bas, expirez à la montée. 7- Restez gainé du début à la fin.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -1150,7 +1228,8 @@ const Exercices = [
     name: "Squat simple avec haltères",
     video: "/videos/Jambes/SquatHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Tenez un haltère dans chaque main, bras le long du corps (ou bras fléchis comme sur la vidéo), pieds écartés largeur des épaules. 2- Descendez lentement en fléchissant les genoux, dos droit. 3- Maintenez les haltères stables le long du corps. 4- Remontez en poussant avec les talons jusqu'à la position de départ. 5- Gardez les genoux dans l’axe des pieds. 6- Inspirez à la descente, expirez à la montée. 7- Exécutez le mouvement en pleine maîtrise.",
     equipment: "- Haltères",
   },
   {
@@ -1158,7 +1237,8 @@ const Exercices = [
     name: "Squat sumo à la barre",
     video: "/videos/Jambes/SquatSumoBarre.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Placez la barre sur vos trapèzes, pieds écartés au-delà des épaules, pointes tournées vers l’extérieur. 2- Descendez lentement, genoux vers l’extérieur, buste droit. 3- Abaissez les hanches sous la parallèle si possible. 4- Remontez en poussant avec l’extérieur des pieds. 5- Ne bloquez pas complètement les genoux en haut. 6- Inspirez en descendant, expirez à la poussée. 7- Contrôlez chaque phase du mouvement.",
     equipment: "- Barre avec des poids",
   },
   {
@@ -1166,7 +1246,8 @@ const Exercices = [
     name: "Squat sumo avec un haltère",
     video: "/videos/Jambes/SquatSumoHaltere.mp4",
     muscles: ["Jambes"],
-    instructions: "",
+    instructions:
+      "1- Tenez un haltère à deux mains devant vous, bras tendus vers le bas. 2- Placez les pieds largement écartés, pointes orientées vers l’extérieur. 3- Descendez lentement en gardant le dos droit et les genoux ouverts. 4- Remontez en poussant avec les talons et l’extérieur des pieds. 5- Gardez l’haltère stable au centre durant le mouvement. 6- Expirez à la montée, inspirez à la descente. 7- Gardez un bon contrôle tout au long de l'exercice.",
     equipment: "- Haltère",
   },
   {
@@ -1174,7 +1255,8 @@ const Exercices = [
     name: "Développé décliné à la barre",
     video: "/videos/Pecs/DeclineBarre.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc décliné, pieds calés, et saisissez la barre en pronation, largeur des épaules. 2- Décrochez la barre et amenez-la lentement au bas des pectoraux. 3- Gardez les coudes à 45° du torse et le dos plaqué au banc. 4- Poussez la barre vers le haut en contractant les pectoraux. 5- Ne verrouillez pas complètement les coudes en haut. 6- Expirez en poussant, inspirez à la descente. 7- Gardez un mouvement fluide et contrôlé.",
     equipment: "- Banc décliné. </br> - Barre avec des poids.",
   },
   {
@@ -1182,7 +1264,8 @@ const Exercices = [
     name: "Développé décliné au rack à squat",
     video: "/videos/Pecs/DeclineRackSquat.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Positionnez un banc décliné dans le rack et réglez la barre à hauteur adaptée. 2- Allongez-vous, pieds calés, saisissez la barre en pronation. 3- Descendez la barre jusqu’au bas des pectoraux en gardant les coudes contrôlés. 4- Remontez en contractant fort les pectoraux. 5- Ne bloquez pas les coudes en fin de mouvement. 6- Inspirez en descendant, expirez en poussant. 7- Gardez le dos plaqué au banc durant toute la série.",
     equipment: "- Banc décliné. </br> - Rack à squat.",
   },
   {
@@ -1190,7 +1273,8 @@ const Exercices = [
     name: "Développé couché à la barre",
     video: "/videos/Pecs/DeveloppeCoucheBarre.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat, pieds au sol, et saisissez la barre légèrement plus large que les épaules. 2- Descendez lentement la barre au niveau des pectoraux. 3- Gardez les coudes légèrement ouverts, sans trop écarter. 4- Remontez en poussant avec puissance, bras dans l’axe. 5- Ne verrouillez pas complètement les coudes. 6- Expirez à la montée, inspirez à la descente. 7- Contrôlez chaque phase du mouvement.",
     equipment: "- Banc. </br> - Barre avec des poids.",
   },
   {
@@ -1198,7 +1282,8 @@ const Exercices = [
     name: "Développé couché aux haltères",
     video: "/videos/Pecs/DeveloppeCoucheHaltere.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat, haltères en main, bras tendus au-dessus de la poitrine. 2- Descendez les haltères lentement en gardant les coudes à 45°. 3- Ne laissez pas les haltères s’écarter trop latéralement. 4- Remontez en contractant les pectoraux, haltères en direction l’une de l’autre. 5- Ne cognez pas les haltères en haut. 6- Inspirez en bas, expirez en haut. 7- Maîtrisez la trajectoire pour éviter les blessures.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -1206,7 +1291,8 @@ const Exercices = [
     name: "Développé assis à la machine convergente",
     video: "/videos/Pecs/DeveloppeCoucheMachine.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Réglez le siège à hauteur pour que les poignées soient à hauteur de poitrine. 2- Saisissez les poignées, dos collé au dossier. 3- Poussez vers l’avant en suivant la trajectoire convergente de la machine. 4- Contractez les pectoraux en fin de mouvement. 5- Ne verrouillez pas complètement les bras. 6- Expirez en poussant, inspirez au retour. 7- Contrôlez tout le mouvement, sans élan.",
     equipment: "- Machine pour le développé assis",
   },
   {
@@ -1214,7 +1300,8 @@ const Exercices = [
     name: "Développé couché à la poulie",
     video: "/videos/Pecs/DeveloppecouchePoulie.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat entre deux poulies basses, poignées en main. 2- Amenez les poignées au-dessus de la poitrine, bras tendus. 3- Descendez lentement les bras en écartant légèrement les coudes. 4- Remontez en contractant les pectoraux, sans que les poignées ne se touchent. 5- Gardez les poignets stables et droits. 6- Inspirez en bas, expirez en haut. 7- Maintenez un mouvement fluide et régulier.",
     equipment: "- Banc. </br> - Poulie.",
   },
   {
@@ -1222,7 +1309,8 @@ const Exercices = [
     name: "Développé couché au rack à squat",
     video: "/videos/Pecs/DeveloppeCoucheRackSquat.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Positionnez un banc plat dans le rack, barre chargée à hauteur adaptée. 2- Allongez-vous, saisissez la barre, largeur épaule ou légèrement plus. 3- Abaissez lentement la barre jusqu’au bas des pectoraux. 4- Poussez pour revenir à la position de départ. 5- Gardez les pieds bien ancrés au sol. 6- Expirez à la montée, inspirez à la descente. 7- Exécutez avec contrôle et précision.",
     equipment: "- Banc. </br> - Rack à squat.",
   },
   {
@@ -1230,7 +1318,8 @@ const Exercices = [
     name: "Développé couché aux haltères en prise serrée",
     video: "/videos/Pecs/DeveloppeCoucheSerreHaltere.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat, haltères en prise neutre (paumes face à face). 2- Descendez les haltères près de la poitrine en gardant les bras proches du corps. 3- Contractez fortement les pectoraux en remontant. 4- Gardez les poignets alignés avec les avant-bras. 5- Ne verrouillez pas les coudes en haut. 6- Inspirez en bas, expirez en haut. 7- Conservez un bon contrôle durant toute l’exécution.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -1238,7 +1327,8 @@ const Exercices = [
     name: "Développé décliné aux haltères",
     video: "/videos/Pecs/DeveloppeDeclineHaltere.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc décliné, haltères en main, bras tendus au-dessus de la poitrine. 2- Descendez lentement en gardant les coudes ouverts à 45°. 3- Ne laissez pas les haltères trop s’éloigner du centre. 4- Remontez en contractant les pectoraux. 5- Gardez une trajectoire régulière sans rebond. 6- Expirez en poussant, inspirez à la descente. 7- Maintenez le dos bien collé au banc.",
     equipment: "- Banc décliné. </br> - Haltères.",
   },
   {
@@ -1246,7 +1336,8 @@ const Exercices = [
     name: "Développé décliné à la machine convergente",
     video: "/videos/Pecs/DeveloppeDeclineMachine.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Réglez le siège et le dossier de la machine pour que les poignées soient au niveau inférieur des pectoraux. 2- Poussez les poignées en avant selon le mouvement convergent. 3- Contractez les pectoraux en fin de mouvement. 4- Gardez les épaules basses et le dos contre le dossier. 5- Ne verrouillez pas les bras complètement. 6- Expirez à la poussée, inspirez au retour. 7- Ne donnez pas d’à-coups, restez fluide.",
     equipment: "- Machine développé décliné",
   },
   {
@@ -1254,7 +1345,8 @@ const Exercices = [
     name: "Développé incliné aux haltères",
     video: "/videos/Pecs/DeveloppeInclineHaltere.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Réglez le banc en inclinaison (30°-45°), allongez-vous avec les haltères au-dessus de la poitrine.2- Descendez lentement en gardant les coudes dans l’axe. 3- Maintenez les haltères sous contrôle à tout moment. 4- Remontez en contractant le haut des pectoraux. 5- Gardez le dos bien calé contre le dossier. 6- Inspirez à la descente, expirez à la poussée. 7- Ne cognez pas les haltères en haut.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -1262,7 +1354,8 @@ const Exercices = [
     name: "Développé incliné à la machine convergente",
     video: "/videos/Pecs/DeveloppeInclineMachine.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Réglez le siège pour aligner les poignées avec le haut des pectoraux. 2- Saisissez les poignées et poussez vers l’avant et le haut. 3- Contractez les pectoraux en fin de mouvement. 4- Gardez le dos bien plaqué au dossier. 5- Ne verrouillez pas complètement les coudes. 6- Expirez à la poussée, inspirez au retour. 7- Contrôlez toute l'amplitude.",
     equipment: "- Machine développé incliné",
   },
   {
@@ -1270,7 +1363,8 @@ const Exercices = [
     name: "Développé Landmine barre prise serrée",
     video: "/videos/Pecs/DeveloppeLandminePecs.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Placez un embout de barre au sol (Landmine), et tenez l’autre extrémité avec les deux mains en prise serrée. 2- Positionnez-vous face à la barre, torse légèrement penché. 3- Poussez la barre vers le haut en gardant les coudes proches du corps. 4- Contractez les pectoraux en fin de poussée. 5- Ne balancez pas le corps, restez stable. 6- Expirez en poussant, inspirez au retour. 7- Maintenez la trajectoire diagonale contrôlée.",
     equipment: "- Landmine barre avec des poids",
   },
   {
@@ -1278,7 +1372,8 @@ const Exercices = [
     name: "Dips lestées",
     video: "/videos/Pecs/DipsLestee.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Saisissez les barres parallèles et suspendez-vous bras tendus, lest attaché à la taille. 2- Descendez lentement jusqu’à ce que les coudes forment un angle à 90°. 3- Gardez le buste légèrement penché vers l’avant. 4- Remontez en contractant les pectoraux. 5- Ne verrouillez pas complètement les coudes en haut. 6- Inspirez en bas, expirez en haut. 7- Contrôlez chaque répétition, surtout avec charge. ",
     equipment: "- Barre pour les dips. </br> - Poids.",
   },
   {
@@ -1286,7 +1381,8 @@ const Exercices = [
     name: "Dips à la machine",
     video: "/videos/Pecs/DipsMachine.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Réglez la charge et installez-vous sur la machine, genoux sur le support. 2- Abaissez lentement le corps en fléchissant les coudes. 3- Penchez légèrement le buste vers l’avant pour cibler les pectoraux. 4- Remontez en poussant sur les barres. 5- Gardez les bras dans l’axe du torse. 6- Expirez en montant, inspirez à la descente. 7- Ne laissez pas le mouvement devenir automatique.",
     equipment: "- Machine pour faire des dips",
   },
   {
@@ -1294,7 +1390,8 @@ const Exercices = [
     name: "Écarté bas du pecs à la poulie",
     video: "/videos/Pecs/EcarteBasPecsPoulie.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Réglez les poulies en position haute, prenez une poignée dans chaque main. 2- Descendez les bras en demi-cercle vers le centre de votre bassin. 3- Contractez fort les pectoraux en fin de mouvement. 4- Gardez une légère flexion des coudes. 5- Remontez lentement avec contrôle. 6- Expirez en rapprochant, inspirez en relâchant. 7- Passez bien les poignées devant votre bassin.",
     equipment: "- Poulie",
   },
   {
@@ -1302,7 +1399,8 @@ const Exercices = [
     name: "Écarté couché aux haltères",
     video: "/videos/Pecs/EcarteCoucheHaltere.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat avec les haltères au-dessus de la poitrine, bras semi-tendus. 2- Descendez lentement les bras en arc de cercle. 3- Maintenez une légère flexion des coudes tout le long. 4- Remontez en resserrant les bras, sans cogner les haltères. 5- Gardez les poignets stables. 6- Inspirez à la descente, expirez à la montée. 7- Exécutez lentement pour bien solliciter les pectoraux.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -1310,7 +1408,8 @@ const Exercices = [
     name: "Écarté couché à la poulie",
     video: "/videos/Pecs/EcarteCouchePoulie.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Positionnez un banc plat entre deux poulies basses, poignées en main. 2- Tendez les bras au-dessus de la poitrine, coudes légèrement fléchis. 3- Écartez lentement les bras jusqu’à l’horizontale. 4- Resserrez les bras pour revenir au point de départ. 5- Conservez la tension constante sur les câbles. 6- Inspirez en écartant, expirez en resserrant. 7- Ne trichez pas avec l’élan, restez strict.",
     equipment: "- Banc. </br> - Poulie.",
   },
   {
@@ -1318,7 +1417,8 @@ const Exercices = [
     name: "Écarté buste penché à la poulie",
     video: "/videos/Pecs/EcartePenchePoulieHaute.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Inclinez-vous légèrement vers l’avant entre deux poulies hautes, poignées en main. 2- Amenez les bras vers le bas et vers l’avant, paumes face à face. 3- Contractez les pectoraux bas en fin de mouvement. 4- Gardez une légère flexion des coudes. 5- Revenez en contrôlant la résistance. 6- Expirez à la contraction, inspirez à l’écartement. 7- Maintenez la tension continue sur les câbles.",
     equipment: "- Poulie",
   },
   {
@@ -1326,7 +1426,8 @@ const Exercices = [
     name: "Développé incliné à la barre",
     video: "/videos/Pecs/InclineBarre.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc incliné (30° à 45°), pieds au sol. 2- Saisissez la barre plus large que les épaules. 3- Descendez lentement jusqu’à la partie haute des pectoraux. 4- Poussez en contractant fortement les pectoraux. 5- Ne verrouillez pas complètement les coudes. 6- Expirez à la montée, inspirez à la descente. 7- Restez stable tout au long du mouvement.",
     equipment: "- Banc. </br> - Barre avec des poids.",
   },
   {
@@ -1334,7 +1435,8 @@ const Exercices = [
     name: "Développé incliné au rack à squat",
     video: "/videos/Pecs/InclineRackSquat.mp4",
     muscles: ["Pectoraux"],
-    instructions: "",
+    instructions:
+      "1- Placez un banc incliné dans le rack, réglez la hauteur de la barre. 2- Allongez-vous, pieds au sol, saisissez la barre. 3- Descendez lentement la barre au niveau du haut de la poitrine. 4- Remontez en contractant le haut des pectoraux. 5- Maintenez le dos plaqué au banc. 6- Expirez à la poussée, inspirez à la descente. 7- Ne précipitez pas l’exécution.",
     equipment: "- Banc. </br> - Rack à squat",
   },
   {
@@ -1342,7 +1444,8 @@ const Exercices = [
     name: "Barre au front sur banc",
     video: "/videos/Triceps/BarreAuFrontSurBanc.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat, barre EZ ou droite en main, bras tendus au-dessus de la poitrine. 2- Fléchissez lentement les coudes pour amener la barre vers le front ou légèrement derrière. 3- Gardez les coudes serrés, sans les écarter sur les côtés. 4- Descendez la barre en contrôlant le mouvement jusqu’à une flexion complète. 5- Remontez en contractant les triceps, sans verrouiller les coudes. 6- Inspirez à la descente, expirez à la montée. 7- Maintenez les bras fixes, seuls les avant-bras doivent bouger.",
     equipment: "- Banc. </br> - Barre avec des poids.",
   },
   {
@@ -1350,7 +1453,8 @@ const Exercices = [
     name: "Dips sur banc",
     video: "/videos/Triceps/DipsTricepsBanc.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Asseyez-vous sur un banc, mains posées à plat à côté des hanches, doigts vers l’avant. 2- Avancez les pieds et glissez les fesses hors du banc, bras tendus. 3- Descendez lentement en fléchissant les coudes jusqu’à former un angle droit. 4- Gardez le dos proche du banc et les coudes pointés vers l’arrière. 5- Remontez en poussant avec les triceps jusqu’à retrouver la position de départ. 6- Inspirez à la descente, expirez à la poussée. 7- Maintenez le contrôle et évitez de descendre trop bas pour protéger les épaules.",
     equipment: "- Banc",
   },
   {
@@ -1358,7 +1462,8 @@ const Exercices = [
     name: "Extension unilatérale horizontale à la poulie",
     video: "/videos/Triceps/Extension HorizontalePoulie.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Réglez la poulie vers le bas et fixez une poignée simple. 2- Placez-vous face à la machine, poignée en main, bras plié à 90° près du torse, torse penché vers l'avant. 3- Gardez le coude fixe et proche du corps et tendez lentement le bras vers l’avant en contractant le triceps. 4- Ne déplacez pas l’épaule ni le coude pendant l’extension. 5- Revenez lentement à la position de départ. 6- Expirez en tendant le bras, inspirez en revenant. 7- Effectuez toutes les répétitions d’un côté avant de changer de bras.",
     equipment: "- Poulie",
   },
   {
