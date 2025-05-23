@@ -1,0 +1,202 @@
+.Home_Container {
+  text-align: center;
+  height: 90vh;
+}
+
+/* Style pour la modal */
+
+.Modal_Overlay {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121a1c;
+  z-index: 3;
+}
+
+.Modal_Header {
+  margin-top: 1rem;
+}
+
+.Modal_Header > h1 {
+  color: rgb(190, 190, 190);
+  margin-bottom: 1rem;
+}
+
+.Modal_Header > img {
+  width: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+.Modal_Header > p {
+  color: rgb(190, 190, 190);
+  margin: 0rem 3rem;
+  line-height: 1.5rem;
+}
+
+.Left_Right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Left_Right > img,
+.Middle > img {
+  width: 8rem;
+  clip-path: ellipse(45% 45% at 50% 54%);
+}
+
+.Middle {
+  margin-top: -6rem;
+}
+
+.Button_Footer > p {
+  color: rgb(190, 190, 190);
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.Modal_Button {
+  background-color: #fdd58c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  height: 3rem;
+}
+
+.Modal_Button > p {
+  font-weight: 400;
+}
+
+.Modal_Button:hover {
+  background-color: #ffb52b;
+  transition: 0.5s ease;
+}
+
+/* Page Home */
+
+.Home_Content {
+  color: white;
+  padding-top: 7rem;
+  background-color: #f8e3bb;
+}
+
+.Home_Content > h2 {
+  color: #333;
+  margin: 1rem 0rem;
+}
+
+.Home_Title {
+  position: absolute;
+  overflow: hidden;
+  top: 14rem;
+  z-index: 2;
+}
+
+.Home_Title > h1 {
+  font-size: 2.5rem;
+}
+
+.Home_Title > p {
+  font-size: 1.2rem;
+}
+
+.Home_Background > img {
+  width: 100%;
+  margin-top: -2rem;
+  z-index: 1;
+}
+
+.Programme_Content {
+  display: flex;
+  background-color: #ffb52b;
+  padding: 0.3rem;
+  margin-right: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  align-items: center;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Programme_Content > p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.Programme_Content > img {
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.Food_Content {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffb52b;
+  padding: 0.3rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  align-items: center;
+  margin: 2rem 0rem 2rem 2rem;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Food_Content > p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.Food_Content > img {
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.Notes_Content {
+  display: flex;
+  background-color: #ffb52b;
+  padding: 0.3rem;
+  margin: 0rem 2rem 2rem 0rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  align-items: center;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Notes_Content > p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.Notes_Content > img {
+  width: 10rem;
+  border-radius: 2rem;
+}
+
+.Text_Button {
+  margin-bottom: 8rem;
+}
+
+.Text_Button > p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.Text_Button > a > button {
+  height: 4rem;
+  width: 14rem;
+  background-color: #ffb52b;
+  margin: 1rem 0rem 7rem 0rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Text_Button > a > button:hover {
+  background-color: #f8e3bb;
+  transition: 0.3s ease;
+  transform: scale(105%);
+}
