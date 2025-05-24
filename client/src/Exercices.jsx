@@ -1471,7 +1471,8 @@ const Exercices = [
     name: "Extension assis à la poulie basse",
     video: "/videos/Triceps/ExtensionAssisPoulieBasse.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Accrochez la corde à la poulie en position basse et asseyez-vous sur un banc dos à la poulie. 2- Saisissez la corde avec les deux mains, coudes pliés à 90° au-dessus de la tête. 3- Gardez les coudes fixes et proches de la tête, tendez les bras vers le haut en contractant les triceps. 4- Ne bougez ni les épaules ni le torse pendant l'exécution. 5- Revenez lentement à la position de départ. 6- Expirez en tendant, inspirez en revenant. 7- Maintenez un contrôle total du mouvement.",
     equipment: "- Poulie",
   },
   {
@@ -1479,7 +1480,8 @@ const Exercices = [
     name: "Extension avec barre à la poulie haute",
     video: "/videos/Triceps/ExtensionBarrePoulieHaute.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Réglez la poulie en position haute avec une barre droite ou EZ. 2- Saisissez la barre en pronation, mains écartées de la largeur des épaules. 3- Gardez les coudes serrés au corps, fléchis à 90°, torse droit. 4- Étendez lentement les bras vers le bas en contractant les triceps. 5- Évitez de bouger les coudes ou les épaules. 6- Revenez lentement à la position de départ. 7- Expirez à l’extension, inspirez au retour.",
     equipment: "- Poulie",
   },
   {
@@ -1487,7 +1489,8 @@ const Exercices = [
     name: "Extension avec la corde à la poulie basse",
     video: "/videos/Triceps/ExtensionCordePoulieBasse.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Fixez une corde à la poulie basse et placez-vous dos à la machine. 2- Saisissez la corde au-dessus de la tête, coudes pliés, bras alignés avec les oreilles. 3- Gardez les coudes fixes et tendez les bras vers l’avant/haut en contractant les triceps. 4- Ne déplacez pas les épaules pendant le mouvement. 5- Revenez lentement à la position initiale. 6- Expirez en tendant, inspirez en revenant. 7- Contrôlez tout le mouvement du début à la fin.",
     equipment: "- Poulie",
   },
   {
@@ -1495,7 +1498,8 @@ const Exercices = [
     name: "Extension nuque à la poulie basse",
     video: "/videos/Triceps/ExtensionNuquePoulieBasse.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Fixez une poignée ou une corde à la poulie basse. 2- Placez-vous dos à la machine, saisissez la poignée de la main droite, main derrière la tête, coude fléchi. 3- Gardez le coude haut et fixe, étendez le bras au-dessus de la tête. 4- Ne bougez pas le haut du corps. 5- Revenez lentement derrière la nuque. 6- Expirez en tendant, inspirez en revenant. 7- Exécutez avec contrôle et sans à-coups, puis changez de bras.",
     equipment: "- Poulie",
   },
   {
@@ -1503,7 +1507,8 @@ const Exercices = [
     name: "Extension avec la corde à la poulie haute",
     video: "/videos/Triceps/ExtensionsCordepoulieHaute.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Réglez la poulie haute avec une corde. 2- Saisissez la corde avec les deux mains, placez vous dos à la poulie, coudes près des oreilles, bras fléchis. 3- Tirez la corde vers le haut en écartant les extrémités à la fin du mouvement. 4- Gardez les coudes fixes tout au long. 5- Revenez lentement à la position initiale. 6- Expirez en remontant, inspirez en descendant. 7- Maintenez un bon contrôle pour maximiser l’activation des triceps.",
     equipment: "- Poulie",
   },
   {
@@ -1511,7 +1516,8 @@ const Exercices = [
     name: "Kick Back sur banc avec haltères",
     video: "/videos/Triceps/ExtensionSurBancHaltere.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Placez un genou et une main sur un banc plat, dos parallèle au sol. 2- Tenez un haltère dans l’autre main, coude plié à 90°, bras proche du buste. 3- Étendez l’avant-bras vers l’arrière en gardant le coude fixe. 4- Ne balancez pas le bras, isolez le mouvement au coude. 5- Revenez lentement à la position de départ. 6- Expirez lors de l’extension, inspirez en revenant. 7- Répétez toutes les reps d’un côté avant de changer de bras.",
     equipment: "- Banc. </br> - Haltère.",
   },
   {
@@ -1519,7 +1525,8 @@ const Exercices = [
     name: "Extension nuque sur banc avec haltère",
     video: "/videos/Triceps/ExtensionTricepsHaltere.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Position assis sur un banc où debout, un haltère tenu dans une mains derrière la tête. 2- Gardez le coude serré, bras fléchi, haltère derrière la nuque. 3- Étendez les bras verticalement sans bouger le coude. 4- Ne cambrez pas le dos, restez droit. 5- Revenez lentement à la position initiale. 6- Expirez en tendant, inspirez en revenant. 7- Conservez la stabilité du tronc tout au long, puis changez de main.",
     equipment: "- Banc. </br> - Haltère.",
   },
   {
@@ -1527,7 +1534,8 @@ const Exercices = [
     name: "Haltères aux front",
     video: "/videos/Triceps/HaltereAuFront.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Allongez-vous sur un banc plat, un haltère dans chaque main, bras tendus. 2- Pliez les coudes pour amener les haltères de chaque côté du front. 3- Gardez les coudes fixes, proches l’un de l’autre. 4- Étendez les bras pour revenir à la position initiale. 5- Contrôlez le mouvement, ne bougez pas les épaules. 6- Expirez en tendant, inspirez à la descente. 7- Gardez une bonne stabilité du haut du corps.",
     equipment: "- Banc. </br> - Haltères.",
   },
   {
@@ -1535,7 +1543,8 @@ const Exercices = [
     name: "Pompes développement triceps",
     video: "/videos/Triceps/PompesTriceps.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Placez-vous en position de pompe, mains à hauteur de la tête. 2- Gardez le corps aligné, abdos contractés. 3- Descendez lentement en gardant les coudes serrés afin de poser les coudes au sol. 4- Poussez avec les triceps pour remonter. 5- Ne laissez pas les coudes s’écarter. 6- Expirez en poussant, inspirez en descendant. 7- Maintenez le contrôle et la forme sur chaque répétition.",
     equipment: "- Tapis de yoga.",
   },
   {
@@ -1543,7 +1552,8 @@ const Exercices = [
     name: "Barre au front à la poulie basse",
     video: "/videos/Triceps/SurBancBarreAuFrontPoulieBasse.mp4",
     muscles: ["Triceps"],
-    instructions: "",
+    instructions:
+      "1- Fixez une barre droite ou EZ à la poulie basse, allongez-vous sur un banc. 2- Tirez la barre vers le haut pour la tenir bras tendus au-dessus du front. 3- Pliez les coudes pour amener la barre vers le front sans bouger le haut des bras. 4- Étendez lentement les bras pour revenir à la position initiale. 5- Ne cambrez pas le dos, gardez les coudes serrés. 6- Expirez en tendant, inspirez à la descente. 7- Contrôlez la barre sur toute l’amplitude du mouvement.",
     equipment: "- Banc. </br> - Poulie.",
   },
 ];
